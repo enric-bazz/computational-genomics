@@ -104,7 +104,7 @@ annotation <- function(sce, ref, pdffilename) {
   sce$Louvain <- factor(igraph::membership(clust))
   
   ## Cell type annotation at cluster level: SingleR package
-  ref <- scuttle::logNormCounts(ref) #add logcounts assay to reference                                                                     (?)
+  logcounts(ref) <- counts(ref) #add "proxy" logcounts assay to reference                                                                   
   pred <- SingleR::SingleR(test = sce, #test set
                            ref = ref, #reference set
                            labels = ref$cell_ontology_class, #labels in reference for annotation
@@ -113,16 +113,17 @@ annotation <- function(sce, ref, pdffilename) {
                            assay.type.ref = "counts", #reference assay
                            assay.type.test = "counts" #test assay
                            )
-  # NOTE: If the 'logcounts' assay is not added on the reference data (ref), SingleR() returns an error 
-  # even if the assay.type.ref="counts" argument is specified
+  # NOTE: If the 'logcounts' assay is not added on the reference data (ref), SingleR() returns an error (assay.type.ref="counts" argument is ignored). 
+  # To ensure that the assay used in the SingleR annotation contains the non-logarithmic counts, instead of adding the actual logcounts assay to the ref object,
+  # the natural scale counts assay is copied under the "logcounts" name.
   
   ## Add annotation column on SCE object colData slot
   sce$cell_annotation <- factor(pred$labels[sce$Louvain], levels = unique(pred$labels))
   
   ## tSNE plots in PDF file
   pdf(file = pdffilename, onefile = TRUE)
-  scater::plotTSNE(sce, colour_by = "Louvain") #Louvain clusters highlighted
-  scater::plotTSNE(sce, colour_by = "cell_annotation") #SingleR cell types highlighted
+  print(scater::plotTSNE(sce, colour_by = "Louvain")) #Louvain clusters highlighted
+  print(scater::plotTSNE(sce, colour_by = "cell_annotation")) #SingleR cell types highlighted
   dev.off()
   
   ## OUTPUT
