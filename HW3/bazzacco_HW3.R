@@ -161,7 +161,7 @@ CCCanalysis <- function(sce, LRdb) {
   cell_type_pairs <- gtools::permutations(n = length(cell_types), #source vector size = number of cell types
                                           r = 2, #target vector size
                                           v = cell_types, #source vector = cell types character vector
-                                          repeats.allowed = TRUE #include self-communication pairs                                         (?)
+                                          repeats.allowed = TRUE #include self-communication pairs
                                           ) 
   # Assign sender and receiver names to the columns
   colnames(cell_type_pairs) <- c('sender','receiver')
