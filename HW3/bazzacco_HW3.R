@@ -58,6 +58,7 @@ process_sce <- function(sce, n_HVG, percVar) {
                         name = "PCA") #name of dimensionality reduction in SCE object
   
   ## tSNE on top HVGs (default to 2-dimensional space)
+  set.seed(123) #pRNG seed for tSNE reproducibility
   sce <- scater::runTSNE(sce, 
                          subset_row = top_HVGs, #genes subset
                          assay.type = 'logcounts', #assay used                                                            (? logcounts or counts ?)
