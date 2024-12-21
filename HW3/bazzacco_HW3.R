@@ -61,7 +61,7 @@ process_sce <- function(sce, n_HVG, percVar) {
   set.seed(123) #pRNG seed for tSNE reproducibility
   sce <- scater::runTSNE(sce, 
                          subset_row = top_HVGs, #genes subset
-                         assay.type = 'logcounts', #assay used                                                            (? logcounts or counts ?)
+                         assay.type = "logcounts", #assay used
                          perplexity = 50,  #perplexity hyper-parameter value
                          name = "TSNE") #name of dimensionality reduction in SCE object
   # NOTE: Perplexity value tuning
