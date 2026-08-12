@@ -1,0 +1,8 @@
+.RData
+.Rhistory
+.Rproj.user/
+*.Rproj
+
+data/
+*_Instructions.pdf
+
