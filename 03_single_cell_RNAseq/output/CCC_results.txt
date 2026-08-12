@@ -1,0 +1,1601 @@
+ligand	receptor	sender	receiver	LRscore
+Hsp90b1	Lrp1	fibroblast	fibroblast	9.91239335763015
+Hsp90b1	Lrp1	leukocyte	fibroblast	9.15889101785229
+Bsg	Cav1	fibroblast	endocardial cell	8.21584048792384
+Bsg	Cav1	endocardial cell	endocardial cell	8.07836437133162
+Hsp90b1	Lrp1	endocardial cell	fibroblast	7.06876712263585
+Hsp90b1	Lrp1	smooth muscle cell	fibroblast	7.04443202873248
+Bsg	Cav1	smooth muscle cell	endocardial cell	6.50009530516695
+Bsg	Cav1	fibroblast	smooth muscle cell	5.44102999381943
+Bsg	Cav1	endocardial cell	smooth muscle cell	5.34998493581087
+Hsp90b1	Lrp1	fibroblast	smooth muscle cell	4.69963239215715
+Bsg	Cav1	leukocyte	endocardial cell	4.55862291588268
+Hsp90b1	Lrp1	leukocyte	smooth muscle cell	4.34238426087104
+Hsp90b1	Lrp1	fibroblast	leukocyte	4.3095135561589
+Bsg	Cav1	smooth muscle cell	smooth muscle cell	4.30475902862077
+Calm3	Mylk	fibroblast	smooth muscle cell	4.22426637387462
+Calm3	Mylk	smooth muscle cell	smooth muscle cell	4.13253549099966
+Calm3	Mylk	leukocyte	smooth muscle cell	4.0809823676227
+Hsp90b1	Lrp1	leukocyte	leukocyte	3.98192077097442
+Egfl7	Notch1	endocardial cell	endocardial cell	3.5159195961541
+Calm3	Mylk	endocardial cell	smooth muscle cell	3.37597248991361
+Hmgb1	Cxcr4	smooth muscle cell	leukocyte	3.37560356028529
+Hsp90b1	Lrp1	endocardial cell	smooth muscle cell	3.35142137156846
+Hsp90b1	Lrp1	smooth muscle cell	smooth muscle cell	3.33988369429434
+Ccl9	Ccr1	leukocyte	leukocyte	3.20025513846291
+Hmgb1	Cxcr4	endocardial cell	leukocyte	3.18923840272857
+Hsp90b1	Lrp1	endocardial cell	leukocyte	3.07321820687033
+Hsp90b1	Lrp1	smooth muscle cell	leukocyte	3.06263827795879
+Bsg	Cav1	leukocyte	smooth muscle cell	3.01899775832894
+Hmgb1	Cxcr4	fibroblast	leukocyte	2.85405292158575
+Col4a6	Itgb1	fibroblast	smooth muscle cell	2.61485016335719
+Hmgb1	Cxcr4	leukocyte	leukocyte	2.55512972469367
+Adam9	Itgb1	leukocyte	smooth muscle cell	2.53009272287189
+Bmp6	Bmpr1a	endocardial cell	smooth muscle cell	2.26943735878392
+Tgfb1	Eng	leukocyte	endocardial cell	2.25134063765244
+Col4a6	Itgb1	smooth muscle cell	smooth muscle cell	2.04778469716411
+Col4a6	Itgb1	fibroblast	endocardial cell	1.94604269930847
+Adam9	Itgb1	leukocyte	endocardial cell	1.8829639039802
+Egfl7	Notch1	endocardial cell	leukocyte	1.8195522190867
+Bsg	Cav1	fibroblast	fibroblast	1.79765634043527
+Bsg	Cav1	endocardial cell	fibroblast	1.76757605674261
+Adam9	Itgb1	fibroblast	smooth muscle cell	1.6987218760168
+Mdk	Lrp6	fibroblast	leukocyte	1.65306423800767
+Mdk	Lrp6	fibroblast	fibroblast	1.59195094524975
+Mmp9	Cd44	leukocyte	leukocyte	1.53493848558561
+Col4a6	Itgb1	smooth muscle cell	endocardial cell	1.52401713701079
+Tgfb3	Eng	fibroblast	endocardial cell	1.52172708276059
+Mmp2	Itgav	fibroblast	fibroblast	1.50905267379841
+Mmp2	Itgav	fibroblast	smooth muscle cell	1.50539933159085
+App	Lrp10	fibroblast	leukocyte	1.49783159279201
+App	Lrp10	fibroblast	endocardial cell	1.43503507850788
+App	Lrp10	leukocyte	leukocyte	1.42793965141857
+Bsg	Cav1	smooth muscle cell	fibroblast	1.42224493719689
+App	Lrp10	endocardial cell	leukocyte	1.39066046091427
+Igf1	Itgav	fibroblast	fibroblast	1.3892761520172
+Adam9	Itgb1	endocardial cell	smooth muscle cell	1.38812440584635
+Igf1	Itgav	fibroblast	smooth muscle cell	1.38591278287028
+App	Lrp10	leukocyte	endocardial cell	1.36807335326549
+Bmp6	Bmpr1a	endocardial cell	fibroblast	1.35298819333094
+App	Lrp10	endocardial cell	endocardial cell	1.33235709095037
+Col4a6	Itgb1	fibroblast	leukocyte	1.32612678443864
+App	Lrp10	fibroblast	fibroblast	1.31966390331554
+Col4a6	Itgb1	fibroblast	fibroblast	1.31682925903578
+Ccl12	Ccr2	leukocyte	leukocyte	1.28888336535749
+Adam9	Itgb1	leukocyte	leukocyte	1.28314186943926
+Adam9	Itgb1	leukocyte	fibroblast	1.27414571291292
+Adam9	Itgb1	fibroblast	endocardial cell	1.26423507981575
+App	Lrp10	leukocyte	fibroblast	1.2580856373696
+App	Lrp10	endocardial cell	fibroblast	1.22524082204451
+App	Lrp10	smooth muscle cell	leukocyte	1.21434534340415
+App	Lrp10	smooth muscle cell	endocardial cell	1.16343397588465
+Adam9	Itgb1	smooth muscle cell	smooth muscle cell	1.1025444783013
+App	Lrp10	fibroblast	smooth muscle cell	1.07561361986723
+App	Lrp10	smooth muscle cell	fibroblast	1.06989846092283
+Igf1	Itgav	leukocyte	fibroblast	1.05415565389032
+Igf1	Itgav	leukocyte	smooth muscle cell	1.05160359496582
+Mfge8	Itgb3	smooth muscle cell	smooth muscle cell	1.0422669540346
+Col4a6	Itgb1	smooth muscle cell	leukocyte	1.03853833528508
+Adam9	Itgb1	endocardial cell	endocardial cell	1.03307998430815
+Col4a6	Itgb1	smooth muscle cell	fibroblast	1.03125710345457
+App	Lrp10	leukocyte	smooth muscle cell	1.02542324838488
+App	Lrp10	endocardial cell	smooth muscle cell	0.998652545164967
+Bsg	Cav1	leukocyte	fibroblast	0.997443584796383
+Bmp6	Bmpr1a	endocardial cell	endocardial cell	0.992000991849349
+Tgfb1	Eng	endocardial cell	endocardial cell	0.982588933772396
+Adam10	Itgav	endocardial cell	fibroblast	0.914391806140106
+Adam10	Itgav	endocardial cell	smooth muscle cell	0.912178108608118
+Bmp6	Acvr1	endocardial cell	endocardial cell	0.902082920911583
+Mdk	Lrp6	fibroblast	endocardial cell	0.900480449467726
+App	Lrp10	smooth muscle cell	smooth muscle cell	0.872038216361236
+Adam9	Itgb1	fibroblast	leukocyte	0.8615103881155
+Ebi3	Il6st	leukocyte	endocardial cell	0.859102544795641
+Adam9	Itgb1	fibroblast	fibroblast	0.855470305966255
+Tgfb1	Eng	leukocyte	fibroblast	0.85316742454808
+Calr	Scarf1	leukocyte	endocardial cell	0.831978359081768
+Adam9	Itgb1	smooth muscle cell	endocardial cell	0.820543625301415
+Mmp2	Itgav	fibroblast	leukocyte	0.816719965127715
+Calr	Scarf1	fibroblast	endocardial cell	0.796687316369122
+Hras	Tlr2	smooth muscle cell	leukocyte	0.755053749352158
+Igf1	Itgav	fibroblast	leukocyte	0.751895271867646
+Mdk	Lrp6	fibroblast	smooth muscle cell	0.734922406045635
+Thbs1	Scarb2	endocardial cell	fibroblast	0.724112341170337
+Mfge8	Itgb3	endocardial cell	smooth muscle cell	0.708726039944999
+Adam9	Itgb1	endocardial cell	leukocyte	0.703990224955142
+Adam9	Itgb1	endocardial cell	fibroblast	0.699054522670349
+Thbs1	Scarb2	endocardial cell	endocardial cell	0.694303093596808
+Adam10	Tspan14	endocardial cell	leukocyte	0.690473389309163
+App	Tspan12	fibroblast	endocardial cell	0.65800200793852
+Mmp2	Itgav	fibroblast	endocardial cell	0.654520599751878
+Thbs1	Scarb2	endocardial cell	smooth muscle cell	0.644776415685583
+App	Tspan12	leukocyte	endocardial cell	0.627298263950371
+Calm3	Mylk	fibroblast	fibroblast	0.624185167771268
+Thbs1	Scarb2	endocardial cell	leukocyte	0.61613525455895
+Tgfb3	Eng	smooth muscle cell	endocardial cell	0.614970773561437
+Calr	Scarf1	smooth muscle cell	endocardial cell	0.614689445618994
+Ebi3	Il6st	leukocyte	fibroblast	0.613869711768649
+App	Tspan12	endocardial cell	endocardial cell	0.610921401341656
+Calm3	Mylk	smooth muscle cell	fibroblast	0.61063084816888
+Calr	Scarf1	endocardial cell	endocardial cell	0.603250331872228
+Calm3	Mylk	leukocyte	fibroblast	0.603013266294027
+Igf1	Itgav	fibroblast	endocardial cell	0.602569993763352
+Adam10	Tspan14	endocardial cell	endocardial cell	0.599133305941554
+Tgfb3	Eng	fibroblast	fibroblast	0.576673273848818
+Hsp90b1	Lrp1	fibroblast	endocardial cell	0.571638848850909
+Igf1	Itgav	leukocyte	leukocyte	0.570523470673427
+Efna5	Epha4	endocardial cell	endocardial cell	0.570497378306244
+Adam9	Itgb1	smooth muscle cell	leukocyte	0.559157761388926
+Mfge8	Itgb3	fibroblast	smooth muscle cell	0.555535145878586
+Adam9	Itgb1	smooth muscle cell	fibroblast	0.555237485023408
+Adam10	Itgav	leukocyte	fibroblast	0.550882992469076
+Adam10	Itgav	leukocyte	smooth muscle cell	0.549549331873417
+Bmp6	Acvr1	endocardial cell	fibroblast	0.549307876335533
+Mmp9	Cd44	leukocyte	fibroblast	0.54350537742628
+App	Tspan12	smooth muscle cell	endocardial cell	0.533465630005359
+Hsp90b1	Lrp1	leukocyte	endocardial cell	0.528185043641946
+Calm3	Mylk	endocardial cell	fibroblast	0.498839743639343
+Adam10	Itgav	endocardial cell	leukocyte	0.494881362983872
+Igf1	Itgav	leukocyte	endocardial cell	0.457218361423674
+Hras	Tlr2	endocardial cell	leukocyte	0.455313718435188
+Calm1	Kcnq1	leukocyte	leukocyte	0.436125095520243
+Hras	Tlr2	fibroblast	leukocyte	0.434023157142305
+Thbs1	Itgav	endocardial cell	fibroblast	0.433258497699083
+Tgfb1	Eng	smooth muscle cell	endocardial cell	0.432556148678008
+Thbs1	Itgav	endocardial cell	smooth muscle cell	0.432209600212656
+Calm1	Kcnq1	smooth muscle cell	leukocyte	0.427870857874489
+Mfge8	Itgb3	smooth muscle cell	endocardial cell	0.425438677694163
+Tgfb1	Eng	leukocyte	leukocyte	0.424031694170456
+Calm3	Mylk	fibroblast	leukocyte	0.419113384159363
+Adam10	Tspan14	leukocyte	leukocyte	0.415981469178449
+Calm3	Mylk	smooth muscle cell	leukocyte	0.410012243901868
+Hsp90b1	Lrp1	endocardial cell	endocardial cell	0.40764947021279
+Hsp90b1	Lrp1	smooth muscle cell	endocardial cell	0.406246087138319
+Calm3	Mylk	leukocyte	leukocyte	0.404897366645043
+Calm1	Kcnq1	endocardial cell	leukocyte	0.404239158485843
+Adam10	Itgav	endocardial cell	endocardial cell	0.396598663356514
+Tgfb1	Eng	endocardial cell	fibroblast	0.372361630219663
+Calm3	Mylk	fibroblast	endocardial cell	0.370323190949334
+Calm3	Mylk	smooth muscle cell	endocardial cell	0.362281540577817
+Adam10	Tspan14	leukocyte	endocardial cell	0.360952871896582
+Calm3	Mylk	leukocyte	endocardial cell	0.357762100878078
+App	Tspan12	fibroblast	fibroblast	0.350596833818483
+Pdgfc	Pdgfrb	leukocyte	fibroblast	0.335265011364765
+Calm3	Mylk	endocardial cell	leukocyte	0.334949345009889
+Tnc	Itgav	smooth muscle cell	fibroblast	0.334382080865697
+App	Tspan12	leukocyte	fibroblast	0.334237255430047
+Tnc	Itgav	smooth muscle cell	smooth muscle cell	0.333572558315098
+Calm1	Kcnq1	leukocyte	endocardial cell	0.329378309147378
+Hras	Tlr2	leukocyte	leukocyte	0.325967330205058
+App	Tspan12	endocardial cell	fibroblast	0.325511330418839
+Calm1	Kcnq1	smooth muscle cell	endocardial cell	0.323144394000129
+Bmp6	Acvr1	endocardial cell	smooth muscle cell	0.322631108758945
+Pdgfc	Pdgfrb	smooth muscle cell	fibroblast	0.320026481560973
+Mmp2	Itgav	endocardial cell	fibroblast	0.315529690088087
+Mmp2	Itgav	endocardial cell	smooth muscle cell	0.314765808247145
+Ptn	Sdc4	endocardial cell	leukocyte	0.31366589566468
+Calm1	Kcnq1	endocardial cell	endocardial cell	0.30529683313545
+Adam10	Itgav	leukocyte	leukocyte	0.298145416797358
+Calm3	Mylk	endocardial cell	endocardial cell	0.295956929410031
+Efna5	Epha4	endocardial cell	fibroblast	0.289862002251773
+Calm1	Kcnq1	fibroblast	leukocyte	0.289644353364815
+Mfge8	Itgb3	endocardial cell	endocardial cell	0.289291978522819
+Ptn	Sdc4	endocardial cell	smooth muscle cell	0.28816807860143
+Tgfb3	Eng	fibroblast	leukocyte	0.286611675806144
+Bmp6	Acvr1	endocardial cell	leukocyte	0.285395859410994
+App	Tspan12	smooth muscle cell	fibroblast	0.284241322327904
+Tgfb1	Eng	fibroblast	endocardial cell	0.280849057330519
+Mmp9	Cd44	leukocyte	endocardial cell	0.27949222770061
+Efna5	Ephb2	endocardial cell	fibroblast	0.267925236530036
+Sema4d	Plxna2	endocardial cell	endocardial cell	0.250665845122673
+Jag1	Notch3	endocardial cell	smooth muscle cell	0.243900331875038
+Efna5	Epha4	smooth muscle cell	endocardial cell	0.242546458435637
+Adam10	Itgav	leukocyte	endocardial cell	0.238934182275028
+Thbs1	Itgav	endocardial cell	leukocyte	0.234485430015778
+Tgfb3	Eng	smooth muscle cell	fibroblast	0.233049154035992
+Psen1	Ncstn	leukocyte	endocardial cell	0.230051005617149
+Mfge8	Itgb3	fibroblast	endocardial cell	0.226761615112451
+Psen1	Ncstn	leukocyte	leukocyte	0.226500261331423
+Egfl7	Notch1	endocardial cell	smooth muscle cell	0.225342014493785
+Ebi3	Il6st	leukocyte	leukocyte	0.224909102877512
+Calm1	Kcnq1	fibroblast	endocardial cell	0.218750464821533
+Sema4d	Plxna2	leukocyte	endocardial cell	0.218605631764547
+Egfl7	Notch1	endocardial cell	fibroblast	0.205961781553597
+Psen1	Ncstn	leukocyte	fibroblast	0.20220876253383
+Col18a1	Gpc1	smooth muscle cell	smooth muscle cell	0.201847807786418
+Ebi3	Il6st	leukocyte	smooth muscle cell	0.19849775661257
+Icam1	Itgal	endocardial cell	leukocyte	0.19271228428184
+Thbs1	Itgav	endocardial cell	endocardial cell	0.18791697379775
+Tgfb1	Eng	endocardial cell	leukocyte	0.185066996656315
+Il1rn	Il1r1	leukocyte	fibroblast	0.184579594663717
+Tnc	Itgav	smooth muscle cell	leukocyte	0.180972159663955
+Pdgfc	Pdgfrb	leukocyte	smooth muscle cell	0.1787785772989
+Ptn	Sdc4	endocardial cell	fibroblast	0.176810458764548
+Efna5	Epha4	fibroblast	endocardial cell	0.172748358609857
+Mmp2	Itgav	endocardial cell	leukocyte	0.170768987696665
+Pdgfc	Pdgfrb	smooth muscle cell	smooth muscle cell	0.170652699005311
+Icam1	Itgal	leukocyte	leukocyte	0.170385508584391
+Jag1	Notch3	fibroblast	smooth muscle cell	0.167303838330861
+Thbs1	Scarb2	leukocyte	fibroblast	0.16550337699195
+Bmp6	Bmpr1a	endocardial cell	leukocyte	0.164111496522549
+Tgfb1	Eng	smooth muscle cell	fibroblast	0.163921358308918
+Adam10	Itgav	fibroblast	fibroblast	0.161493687512428
+Egfl7	Notch1	leukocyte	endocardial cell	0.161492880111507
+Adam10	Itgav	fibroblast	smooth muscle cell	0.161102719247974
+Thbs1	Scarb2	leukocyte	endocardial cell	0.158690164651121
+App	Tspan12	fibroblast	smooth muscle cell	0.157930813690983
+Tgfb1	Eng	leukocyte	smooth muscle cell	0.157503699184406
+App	Tspan12	leukocyte	smooth muscle cell	0.150561433031189
+Thbs1	Scarb2	leukocyte	smooth muscle cell	0.147370329344555
+App	Tspan12	endocardial cell	smooth muscle cell	0.146630728859627
+Tnc	Itgav	smooth muscle cell	endocardial cell	0.145031359020496
+Adam10	Itgav	smooth muscle cell	fibroblast	0.142566869235172
+Adam10	Itgav	smooth muscle cell	smooth muscle cell	0.142221721865685
+Icam1	Itgal	fibroblast	leukocyte	0.14116767936443
+Thbs1	Scarb2	leukocyte	leukocyte	0.140824095261917
+Mmp2	Itgav	endocardial cell	endocardial cell	0.136854521768381
+Calr	Scarf1	leukocyte	leukocyte	0.135769840312992
+Mmp9	Cd44	leukocyte	smooth muscle cell	0.134821341257414
+Rspo1	Lrp6	fibroblast	leukocyte	0.13440855603499
+Psen1	Ncstn	endocardial cell	endocardial cell	0.13301296307567
+Psen1	Ncstn	endocardial cell	leukocyte	0.130959961754065
+Calr	Scarf1	fibroblast	leukocyte	0.130010725089294
+Rspo1	Lrp6	fibroblast	fibroblast	0.129439511732129
+App	Tspan12	smooth muscle cell	smooth muscle cell	0.128040127547439
+Adam10	Tspan14	endocardial cell	fibroblast	0.125765988321318
+Jag1	Notch3	smooth muscle cell	smooth muscle cell	0.124248353994543
+Efna5	Epha4	smooth muscle cell	fibroblast	0.123234575222694
+Adam10	Tspan14	fibroblast	leukocyte	0.121946733358693
+Psen1	Ncstn	fibroblast	endocardial cell	0.119868453625611
+Cxcl2	Cxcr2	leukocyte	leukocyte	0.11955589782553
+Col18a1	Gpc1	smooth muscle cell	fibroblast	0.119351836340545
+Psen1	Ncstn	fibroblast	leukocyte	0.118018332494394
+Bdnf	Sorcs2	smooth muscle cell	fibroblast	0.117256555619128
+Psen1	Ncstn	endocardial cell	fibroblast	0.116914884124655
+Tgfb3	Eng	smooth muscle cell	leukocyte	0.115827473913714
+Efna5	Ephb2	smooth muscle cell	fibroblast	0.113908178577127
+Thbs1	Scarb2	smooth muscle cell	fibroblast	0.113473879586696
+Tgfb3	Eng	endocardial cell	endocardial cell	0.111328227567966
+Thbs1	Scarb2	smooth muscle cell	endocardial cell	0.108802545074897
+Efna5	Epha4	endocardial cell	smooth muscle cell	0.108267432114575
+Adam10	Tspan14	smooth muscle cell	leukocyte	0.107654758871409
+Tgfb3	Eng	fibroblast	smooth muscle cell	0.106459964643027
+Tgfb1	Eng	fibroblast	fibroblast	0.106430480986336
+Adam10	Tspan14	fibroblast	endocardial cell	0.105814866491912
+Psen1	Ncstn	fibroblast	fibroblast	0.10536120722209
+Thbs1	Scarb2	smooth muscle cell	smooth muscle cell	0.101041340126306
+Calr	Scarf1	smooth muscle cell	leukocyte	0.100310647461889
+Thbs1	Itgav	leukocyte	fibroblast	0.0990257179759758
+Thbs1	Itgav	leukocyte	smooth muscle cell	0.0987859815894347
+Calr	Scarf1	endocardial cell	leukocyte	0.0984439082255048
+Cthrc1	Fzd6	endocardial cell	endocardial cell	0.0974157610199669
+Thbs1	Scarb2	smooth muscle cell	leukocyte	0.0965530535937851
+Adam10	Tspan14	smooth muscle cell	endocardial cell	0.0934135226377103
+Il1rn	Il1r1	leukocyte	smooth muscle cell	0.091220516937453
+Efna5	Epha4	fibroblast	fibroblast	0.0877711046824149
+Igf1	Itgav	smooth muscle cell	fibroblast	0.0876308900366196
+Igf1	Itgav	smooth muscle cell	smooth muscle cell	0.0874187399673634
+Adam10	Itgav	fibroblast	leukocyte	0.0874025944379432
+Mfge8	Itgb3	smooth muscle cell	fibroblast	0.0868507392259691
+Bsg	Cav1	fibroblast	leukocyte	0.0855397079133168
+Bsg	Cav1	endocardial cell	leukocyte	0.0841083672153516
+Egfl7	Notch1	leukocyte	leukocyte	0.0835754972027851
+Tgfb1	Eng	smooth muscle cell	leukocyte	0.0814703530333108
+Tnfsf13b	Tnfrsf17	fibroblast	leukocyte	0.0813385783922473
+Efna5	Ephb2	fibroblast	fibroblast	0.0811285846363284
+Psen1	Ncstn	smooth muscle cell	endocardial cell	0.0808568951455749
+Psen1	Ncstn	smooth muscle cell	leukocyte	0.0796089016511344
+Ptn	Sdc4	endocardial cell	endocardial cell	0.0775245999450383
+Adam10	Itgav	smooth muscle cell	leukocyte	0.0771591412889748
+Mfge8	Itgb3	leukocyte	smooth muscle cell	0.0759297981377128
+Adam10	Tspan14	leukocyte	fibroblast	0.0757687716928893
+Col4a6	Itgb1	endocardial cell	smooth muscle cell	0.0741421076219167
+Psen1	Ncstn	leukocyte	smooth muscle cell	0.0737343126266806
+Vtn	Itgav	fibroblast	fibroblast	0.0735184226678251
+Vtn	Itgav	fibroblast	smooth muscle cell	0.0733404381870779
+Rspo1	Lrp6	fibroblast	endocardial cell	0.0732169229530778
+Ccl24	Ackr2	leukocyte	fibroblast	0.0725490937515289
+Psen1	Ncstn	smooth muscle cell	fibroblast	0.0710710768938085
+Mdk	Lrp6	smooth muscle cell	leukocyte	0.0700742721191416
+Adam10	Itgav	fibroblast	endocardial cell	0.0700445697105579
+Tgfb1	Eng	endocardial cell	smooth muscle cell	0.0687418817297188
+Thbs1	Itgav	smooth muscle cell	fibroblast	0.0678948828828946
+Thbs1	Itgav	smooth muscle cell	smooth muscle cell	0.0677305127150265
+Bsg	Cav1	smooth muscle cell	leukocyte	0.0676761257268774
+Mdk	Lrp6	smooth muscle cell	fibroblast	0.0674836471401774
+Il4	Il13ra1	endocardial cell	leukocyte	0.0672917842484387
+Hbegf	Erbb2	smooth muscle cell	fibroblast	0.0660436146608725
+Igf1	Itgav	endocardial cell	fibroblast	0.0637126059958142
+Igf1	Itgav	endocardial cell	smooth muscle cell	0.0635583609143269
+Ccl9	Ccr1	endocardial cell	leukocyte	0.062683606484691
+Adam10	Itgav	smooth muscle cell	endocardial cell	0.0618354510592897
+Pdgfc	Pdgfrb	leukocyte	endocardial cell	0.0612136336883068
+Rspo1	Lrp6	fibroblast	smooth muscle cell	0.0597556084773858
+Thbs1	Scarb2	fibroblast	fibroblast	0.0596740758867042
+Mfge8	Itgb3	endocardial cell	fibroblast	0.0590572120123782
+Pdgfc	Pdgfrb	smooth muscle cell	endocardial cell	0.0584313398319914
+Adam10	Tspan14	endocardial cell	smooth muscle cell	0.0582896948738201
+Thbs1	Scarb2	fibroblast	endocardial cell	0.0572174967059747
+Col4a6	Itgb1	endocardial cell	endocardial cell	0.0551785755340295
+Ccl24	Ackr2	leukocyte	endocardial cell	0.0551758627816296
+Hbegf	Erbb2	smooth muscle cell	endocardial cell	0.0540521140895106
+Thbs1	Itgav	leukocyte	leukocyte	0.0535940741740402
+Thbs1	Scarb2	fibroblast	smooth muscle cell	0.0531360046942324
+Il1rn	Il1r1	leukocyte	endocardial cell	0.0530410495389947
+Tgfb1	Eng	fibroblast	leukocyte	0.0528968826815181
+Dll4	Notch3	endocardial cell	smooth muscle cell	0.0525953626232793
+Thbs1	Scarb2	fibroblast	leukocyte	0.0507756874818622
+Pdgfc	Pdgfrb	endocardial cell	fibroblast	0.0498029379831601
+Hras	Tlr2	smooth muscle cell	fibroblast	0.0497971655574584
+Hras	Tlr2	smooth muscle cell	endocardial cell	0.0494209482404256
+Ccl9	Ccr1	fibroblast	leukocyte	0.0486209317035319
+Dll4	Notch4	endocardial cell	endocardial cell	0.0484452078104964
+Sema4d	Plxna2	endocardial cell	fibroblast	0.0479503574462256
+Bsg	Cav1	leukocyte	leukocyte	0.0474623714134568
+Igf1	Itgav	smooth muscle cell	leukocyte	0.0474270373045833
+Mfge8	Itgb3	fibroblast	fibroblast	0.0462920155904322
+Efna5	Epha4	smooth muscle cell	smooth muscle cell	0.0460298035045738
+Tgfb3	Eng	smooth muscle cell	smooth muscle cell	0.0430233302354555
+Thbs1	Itgav	leukocyte	endocardial cell	0.0429503710810522
+Psen1	Ncstn	endocardial cell	smooth muscle cell	0.0426323691848772
+Tgfb3	Eng	endocardial cell	fibroblast	0.0421889142874022
+Has2	Cd44	fibroblast	leukocyte	0.0420645105887547
+Sema4d	Plxna2	leukocyte	fibroblast	0.0418174968262553
+Wnt4	Fzd4	leukocyte	endocardial cell	0.0415840573471256
+Sema4d	Plxna2	endocardial cell	smooth muscle cell	0.0413586266394349
+Wnt9a	Fzd7	fibroblast	smooth muscle cell	0.0410202516166951
+Mdk	Lrp6	endocardial cell	leukocyte	0.0408627359043684
+Vtn	Itgav	fibroblast	leukocyte	0.039789176772985
+Jag1	Notch3	endocardial cell	fibroblast	0.0395343722866932
+Mdk	Lrp6	endocardial cell	fibroblast	0.0393520527229193
+Psen1	Ncstn	fibroblast	smooth muscle cell	0.0384193844751824
+Mdk	Lrp6	smooth muscle cell	endocardial cell	0.0381718451123347
+Igf1	Itgav	smooth muscle cell	endocardial cell	0.0380080985239492
+Tgfb3	Eng	leukocyte	endocardial cell	0.0376654803652535
+Col4a6	Itgb1	endocardial cell	leukocyte	0.0376013265119256
+Col4a6	Itgb1	endocardial cell	fibroblast	0.0373377021793747
+Thbs1	Itgav	smooth muscle cell	leukocyte	0.0367456400583373
+Lefty1	Acvr1b	fibroblast	endocardial cell	0.0362443782110978
+Sema4d	Plxna2	leukocyte	smooth muscle cell	0.0360688497509623
+Thbs1	Itgav	fibroblast	fibroblast	0.0357048195428735
+Thbs1	Itgav	fibroblast	smooth muscle cell	0.0356183799331008
+Hbegf	Erbb2	smooth muscle cell	smooth muscle cell	0.0355000291451034
+Adam10	Tspan14	leukocyte	smooth muscle cell	0.0351171142682782
+Gnas	Lhcgr	smooth muscle cell	smooth muscle cell	0.0345270634830452
+Igf1	Itgav	endocardial cell	leukocyte	0.0344821345540708
+Hsp90b1	Tlr9	fibroblast	leukocyte	0.0342902232728878
+Col4a6	Itgb1	leukocyte	smooth muscle cell	0.0340627577007978
+Efna5	Epha4	fibroblast	smooth muscle cell	0.0327837110211174
+Mfge8	Itgb3	smooth muscle cell	leukocyte	0.0325351769084921
+Col18a1	Gpc1	smooth muscle cell	leukocyte	0.032393178410631
+Mmp2	Itgav	leukocyte	fibroblast	0.0323200423276178
+Mmp2	Itgav	leukocyte	smooth muscle cell	0.0322417970967945
+Vtn	Itgav	fibroblast	endocardial cell	0.0318871056874619
+Hsp90b1	Tlr9	leukocyte	leukocyte	0.0316836112736034
+Mdk	Lrp6	leukocyte	leukocyte	0.0316535045819987
+Gnas	Lhcgr	fibroblast	smooth muscle cell	0.0312041314520828
+Mdk	Lrp6	smooth muscle cell	smooth muscle cell	0.0311537516108658
+Col18a1	Gpc1	endocardial cell	smooth muscle cell	0.0311041100794315
+Mfge8	Itgb3	leukocyte	endocardial cell	0.0309934732097637
+Mdk	Lrp6	leukocyte	fibroblast	0.0304832839409272
+Gnas	Lhcgr	endocardial cell	smooth muscle cell	0.0303483369773649
+Tgfb1	Eng	smooth muscle cell	smooth muscle cell	0.0302616105187828
+Ltb	Tnfrsf1a	leukocyte	leukocyte	0.0302076568585144
+Hras	Tlr2	endocardial cell	fibroblast	0.0300287663453799
+Hras	Tlr2	endocardial cell	endocardial cell	0.0298018991777049
+Col18a1	Gpc1	smooth muscle cell	endocardial cell	0.0297303781528601
+Thbs1	Itgav	smooth muscle cell	endocardial cell	0.0294480108190922
+Jag1	Notch3	leukocyte	smooth muscle cell	0.0292913427018773
+Efna5	Epha4	endocardial cell	leukocyte	0.0289075683198397
+Hras	Tlr2	fibroblast	fibroblast	0.0286246151754499
+Hras	Tlr2	fibroblast	endocardial cell	0.0284083563622855
+Wnt4	Fzd4	leukocyte	fibroblast	0.0281080478940821
+Izumo1	Cd9	endocardial cell	smooth muscle cell	0.0281014802380857
+Igf1	Itgav	endocardial cell	endocardial cell	0.0276340341276291
+Wnt9a	Fzd7	fibroblast	fibroblast	0.0272787845259971
+Jag1	Notch3	fibroblast	fibroblast	0.0271186684278634
+Pdgfc	Pdgfrb	endocardial cell	smooth muscle cell	0.0265571953413521
+Ccl12	Ccr2	endocardial cell	leukocyte	0.0262472874175748
+Ltb	Tnfrsf1a	leukocyte	endocardial cell	0.0259930623766056
+Psen1	Ncstn	smooth muscle cell	smooth muscle cell	0.0259156771286121
+Col4a6	Itgb1	leukocyte	endocardial cell	0.0253504318797543
+Lefty1	Acvr1b	fibroblast	leukocyte	0.0251561321708553
+Izumo1	Cd9	endocardial cell	fibroblast	0.0250799195380246
+Mmp2	Itgav	smooth muscle cell	fibroblast	0.0250245781608649
+Mmp2	Itgav	smooth muscle cell	smooth muscle cell	0.0249639948895125
+Egfl7	Notch1	fibroblast	endocardial cell	0.0245424597396007
+Hbegf	Erbb2	leukocyte	fibroblast	0.0245204885310468
+Hsp90b1	Tlr9	endocardial cell	leukocyte	0.0244531864459001
+Hsp90b1	Tlr9	smooth muscle cell	leukocyte	0.0243690033658702
+Tnfsf13b	Tnfrsf17	leukocyte	leukocyte	0.0242272180313019
+Wnt9a	Fzd7	smooth muscle cell	smooth muscle cell	0.0240283618787517
+Cxcl1	Cxcr2	leukocyte	leukocyte	0.0238013247930286
+Cxcl1	Cxcr2	fibroblast	leukocyte	0.0235904170534021
+Izumo1	Cd9	endocardial cell	endocardial cell	0.0232376081336467
+Mdk	Lrp6	endocardial cell	endocardial cell	0.0222593254077014
+Calr	Scarf1	leukocyte	smooth muscle cell	0.0222122389662614
+Adam10	Tspan14	fibroblast	fibroblast	0.0222119370288217
+Mfge8	Itgb3	endocardial cell	leukocyte	0.0221234368028329
+Wnt4	Fzd4	fibroblast	endocardial cell	0.0220994113839515
+Hras	Tlr2	leukocyte	fibroblast	0.021498137215359
+Hras	Tlr2	leukocyte	endocardial cell	0.0213357189047218
+Calr	Scarf1	fibroblast	smooth muscle cell	0.021270035283263
+Lefty1	Acvr1b	endocardial cell	endocardial cell	0.0210436572079095
+Hmgb1	Cxcr4	smooth muscle cell	fibroblast	0.0210362610184146
+Tgfb3	Eng	endocardial cell	leukocyte	0.0209682604911636
+Pdgfc	Pdgfrb	fibroblast	fibroblast	0.020706481645284
+Sema5a	Plxnb3	smooth muscle cell	leukocyte	0.0206501641760247
+Jag1	Notch3	smooth muscle cell	fibroblast	0.0201397047927995
+Calr	Scarf1	leukocyte	fibroblast	0.0200808614407856
+Hbegf	Erbb2	leukocyte	endocardial cell	0.0200683177384581
+Hmgb1	Cxcr4	endocardial cell	fibroblast	0.0198748609816254
+Tgfb1	Eng	fibroblast	smooth muscle cell	0.0196481885958116
+Adam10	Tspan14	smooth muscle cell	fibroblast	0.0196087312800025
+Il4	Il13ra1	leukocyte	leukocyte	0.0195214378727118
+Ccl22	Dpp4	leukocyte	leukocyte	0.0194054531361874
+Thbs1	Itgav	fibroblast	leukocyte	0.0193239371151616
+Ltb	Tnfrsf1a	leukocyte	fibroblast	0.0192706810092711
+Bdnf	Sorcs2	fibroblast	fibroblast	0.0192523066155617
+Ccl12	Ccr2	fibroblast	leukocyte	0.0192511298182985
+Calr	Scarf1	fibroblast	fibroblast	0.0192290670027721
+Lefty1	Acvr1b	fibroblast	smooth muscle cell	0.0191002187841216
+Adam12	Itgb1	fibroblast	smooth muscle cell	0.0190475625801251
+Lefty1	Acvr1b	fibroblast	fibroblast	0.0188885769310603
+Col18a1	Gpc1	endocardial cell	fibroblast	0.0183917412650166
+Gnas	Lhcgr	leukocyte	smooth muscle cell	0.0181725831636083
+Mdk	Lrp6	endocardial cell	smooth muscle cell	0.018166831934275
+Hmgb1	Cxcr4	fibroblast	fibroblast	0.0177860347480414
+Mmp2	Itgav	leukocyte	leukocyte	0.017492049350601
+Mfge8	Itgb3	fibroblast	leukocyte	0.0173414634130718
+Col4a6	Itgb1	leukocyte	leukocyte	0.017274999528415
+Mdk	Lrp6	leukocyte	endocardial cell	0.0172427431299223
+Il4	Il13ra1	endocardial cell	endocardial cell	0.017167726474377
+Col4a6	Itgb1	leukocyte	fibroblast	0.0171538838486516
+Il4	Il13ra1	endocardial cell	fibroblast	0.016760832663342
+Calr	Scarf1	smooth muscle cell	smooth muscle cell	0.0164110384688335
+Calr	Scarf1	endocardial cell	smooth muscle cell	0.0161056358999664
+Wnt9a	Fzd7	smooth muscle cell	fibroblast	0.0159790464555897
+Egf	Nrp1	fibroblast	endocardial cell	0.0159536987882412
+Hmgb1	Cxcr4	leukocyte	fibroblast	0.0159231896947114
+Hbegf	Erbb2	endocardial cell	fibroblast	0.0158337876985554
+Efna5	Ephb2	endocardial cell	smooth muscle cell	0.0156934444685289
+Thbs1	Itgav	fibroblast	endocardial cell	0.0154862320626695
+Col18a1	Gpc1	fibroblast	smooth muscle cell	0.0154814732261266
+Ccl9	Ccr1	leukocyte	fibroblast	0.0154493779048306
+Tnc	Itgav	endocardial cell	fibroblast	0.0153531971360754
+Wnt2b	Fzd4	fibroblast	endocardial cell	0.0153344031034049
+Tnc	Itgav	endocardial cell	smooth muscle cell	0.0153160278019016
+Wnt4	Fzd4	fibroblast	fibroblast	0.0149377274186081
+Has2	Cd44	fibroblast	fibroblast	0.0148945953981149
+Calr	Scarf1	smooth muscle cell	fibroblast	0.0148363156948115
+Lefty1	Acvr1b	endocardial cell	leukocyte	0.0146057691760388
+Calr	Scarf1	endocardial cell	fibroblast	0.0145602180588012
+Ptn	Sdc4	smooth muscle cell	leukocyte	0.0145400131664414
+Efna2	Epha7	fibroblast	smooth muscle cell	0.0142882651132931
+Tgfb3	Eng	leukocyte	fibroblast	0.0142737000079641
+Adam12	Itgb1	fibroblast	endocardial cell	0.0141757147763615
+Cthrc1	Fzd6	fibroblast	endocardial cell	0.0140831360953361
+Mdk	Lrp6	leukocyte	smooth muscle cell	0.0140725745632343
+Mmp2	Itgav	leukocyte	endocardial cell	0.0140181544723894
+Il4	Il13ra1	endocardial cell	smooth muscle cell	0.0139196162167621
+Egf	Nrp1	leukocyte	endocardial cell	0.0138876782332793
+Ptn	Sdc4	fibroblast	leukocyte	0.013559252513375
+Mmp2	Itgav	smooth muscle cell	leukocyte	0.0135436442728225
+Ptn	Sdc4	smooth muscle cell	smooth muscle cell	0.0133580593712112
+Hbegf	Erbb2	leukocyte	smooth muscle cell	0.0131803515294273
+Egf	Nrp1	fibroblast	fibroblast	0.0131311117007349
+Hbegf	Erbb2	endocardial cell	endocardial cell	0.0129588561066216
+Wnt4	Fzd4	smooth muscle cell	endocardial cell	0.0128206113816166
+Npy	Npy1r	fibroblast	smooth muscle cell	0.012719155215654
+Egfl7	Notch1	fibroblast	leukocyte	0.0127011684595643
+Ptn	Sdc4	fibroblast	smooth muscle cell	0.0124570244902493
+Efna5	Epha4	smooth muscle cell	leukocyte	0.0122900272368992
+Wnt2b	Fzd4	endocardial cell	endocardial cell	0.0120978740891073
+Hras	Tlr2	smooth muscle cell	smooth muscle cell	0.0119090610989507
+Bmp3	Acvr2b	smooth muscle cell	leukocyte	0.0114579100141852
+Egf	Nrp1	leukocyte	fibroblast	0.0114306191037947
+Ebi3	Il6st	endocardial cell	endocardial cell	0.0114154187062448
+Lefty1	Acvr1b	endocardial cell	smooth muscle cell	0.0110896772555491
+Pdgfc	Pdgfrb	fibroblast	smooth muscle cell	0.0110416393119593
+Lefty1	Acvr1b	endocardial cell	fibroblast	0.010966796995865
+Mmp2	Itgav	smooth muscle cell	endocardial cell	0.0108538967464664
+Bmp6	Bmpr1a	smooth muscle cell	smooth muscle cell	0.0105682928986456
+Wnt2b	Fzd4	fibroblast	fibroblast	0.010365033244825
+Egfl7	Notch1	leukocyte	smooth muscle cell	0.0103503876967314
+Adam10	Tspan14	fibroblast	smooth muscle cell	0.0102947311053498
+Egf	Nrp1	fibroblast	leukocyte	0.00997298380552871
+Egf	Nrp1	endocardial cell	endocardial cell	0.00994580453790226
+Bmp3	Acvr2b	smooth muscle cell	fibroblast	0.00979730877660683
+Cthrc1	Fzd6	endocardial cell	smooth muscle cell	0.00974534434046677
+Adam12	Itgb1	fibroblast	leukocyte	0.00966001160209676
+Wnt10b	Fzd4	endocardial cell	endocardial cell	0.00961311697990209
+Mmp9	Cd44	endocardial cell	leukocyte	0.00959572986923682
+Adam12	Itgb1	fibroblast	fibroblast	0.00959228489276832
+Ltb	Tnfrsf1a	leukocyte	smooth muscle cell	0.00950441314547116
+Egfl7	Notch1	leukocyte	fibroblast	0.00946021670471943
+Il1rn	Il1r1	leukocyte	leukocyte	0.00944173098852037
+Ltb	Ltbr	leukocyte	leukocyte	0.00943489016506543
+Mmp9	Cd44	fibroblast	leukocyte	0.00937829172193596
+Egfl7	Notch1	smooth muscle cell	endocardial cell	0.00937472174364149
+Fgf9	Fgfr2	leukocyte	smooth muscle cell	0.00926633211229043
+Col18a1	Gpc1	fibroblast	fibroblast	0.00915413587622585
+Wnt9a	Fzd7	endocardial cell	smooth muscle cell	0.00914532271973266
+Pdgfc	Pdgfrb	endocardial cell	endocardial cell	0.00909316122756918
+Wnt10b	Fzd4	fibroblast	endocardial cell	0.00909147224394603
+Adam10	Tspan14	smooth muscle cell	smooth muscle cell	0.0090882040401406
+Tnfsf13b	Tnfrsf13c	fibroblast	leukocyte	0.00894851788320779
+Efna5	Epha4	fibroblast	leukocyte	0.0087533004857631
+Ltb	Ltbr	leukocyte	fibroblast	0.00870197265637783
+Egf	Nrp1	leukocyte	leukocyte	0.0086814720495395
+Wnt4	Fzd4	smooth muscle cell	fibroblast	0.00866587778430913
+Tnc	Itgav	fibroblast	fibroblast	0.00862451144977912
+Tnc	Itgav	fibroblast	smooth muscle cell	0.00860363193228697
+Hmgb1	Cxcr4	smooth muscle cell	endocardial cell	0.0085276366854582
+Dll4	Notch3	endocardial cell	fibroblast	0.0085253047034298
+Hbegf	Erbb2	endocardial cell	smooth muscle cell	0.00851104119092249
+Tnc	Itgav	endocardial cell	leukocyte	0.00830936046653166
+Ptn	Sdc4	smooth muscle cell	fibroblast	0.00819606604968424
+Egf	Nrp1	endocardial cell	fibroblast	0.00818615620580292
+Wnt2b	Fzd4	endocardial cell	fibroblast	0.00817735560228368
+Ebi3	Il6st	endocardial cell	fibroblast	0.00815686070699261
+Wnt9a	Fzd7	fibroblast	leukocyte	0.00811005547744818
+Hmgb1	Cxcr4	endocardial cell	endocardial cell	0.0080568307018499
+Ccl9	Ccr1	leukocyte	endocardial cell	0.00798866231068933
+Sema5a	Plxnb3	fibroblast	leukocyte	0.00781934278122109
+Ltb	Ltbr	leukocyte	endocardial cell	0.00781821377990078
+Tgfb3	Eng	endocardial cell	smooth muscle cell	0.00778851825989427
+Lamc2	Itgb4	smooth muscle cell	endocardial cell	0.00776513363395727
+Has2	Cd44	fibroblast	endocardial cell	0.00765939735174569
+Ptn	Sdc4	fibroblast	fibroblast	0.00764322067056063
+Lamc2	Itgb4	fibroblast	endocardial cell	0.00762213420562653
+Bmp3	Acvr2b	smooth muscle cell	smooth muscle cell	0.00740768323463372
+Hmgb1	Cxcr4	fibroblast	endocardial cell	0.00721006657378239
+Hras	Tlr2	endocardial cell	smooth muscle cell	0.00718142105338527
+Tgfb3	Eng	leukocyte	leukocyte	0.00709415411595662
+Vtn	Itgav	smooth muscle cell	fibroblast	0.00707447496557492
+Vtn	Itgav	smooth muscle cell	smooth muscle cell	0.00705734801007702
+Egf	Nrp1	smooth muscle cell	endocardial cell	0.00701190284699103
+Npy	Npy1r	endocardial cell	smooth muscle cell	0.0069592386975849
+Icam1	Muc1	endocardial cell	fibroblast	0.00694221082641148
+Wnt4	Fzd4	endocardial cell	endocardial cell	0.00687146670475726
+Hras	Tlr2	fibroblast	smooth muscle cell	0.00684561635671904
+Icam1	Muc1	endocardial cell	leukocyte	0.00667437545841896
+Efna5	Ephb2	smooth muscle cell	smooth muscle cell	0.00667205410794148
+Tnc	Itgav	endocardial cell	endocardial cell	0.00665913388716826
+Icosl	Icos	leukocyte	leukocyte	0.00663562253179997
+Wnt10b	Fzd4	endocardial cell	fibroblast	0.00649782560241633
+Hmgb1	Cxcr4	leukocyte	endocardial cell	0.00645491023672253
+Wnt4	Fzd4	leukocyte	smooth muscle cell	0.00632762190320028
+Mfge8	Itgb3	leukocyte	fibroblast	0.00632713056094847
+Bmp6	Bmpr1a	smooth muscle cell	fibroblast	0.00630058171034637
+Wnt9a	Fzd7	fibroblast	endocardial cell	0.00627097354920606
+Egf	Nrp1	endocardial cell	leukocyte	0.00621732608256097
+Ccl12	Ccr2	leukocyte	fibroblast	0.00621120372593171
+Wnt10b	Fzd4	fibroblast	fibroblast	0.00614522856986721
+Icam1	Muc1	leukocyte	fibroblast	0.00613791760481794
+Bmp3	Acvr2b	smooth muscle cell	endocardial cell	0.0061328482351432
+Wnt9a	Fzd7	endocardial cell	fibroblast	0.00608171032746075
+Sema5a	Plxnb3	smooth muscle cell	endocardial cell	0.00606506776602126
+Rspo1	Lrp6	endocardial cell	leukocyte	0.0060582642214256
+Icam1	Muc1	leukocyte	leukocyte	0.00590111243403001
+Rspo1	Lrp6	endocardial cell	fibroblast	0.00583429199671943
+Egf	Nrp1	smooth muscle cell	fibroblast	0.00577133119665043
+Ltb	Ltbr	leukocyte	smooth muscle cell	0.00570307886585828
+Icam1	Muc1	endocardial cell	endocardial cell	0.00569202118241654
+Cxcl2	Cxcr2	fibroblast	leukocyte	0.00559606766025211
+Gdf11	Acvr1b	fibroblast	endocardial cell	0.00551304147313335
+Izumo1	Cd9	smooth muscle cell	smooth muscle cell	0.00546920744120233
+Hras	Tlr2	leukocyte	smooth muscle cell	0.00514130928427893
+Cxcl2	Cxcr2	leukocyte	smooth muscle cell	0.00511458702942382
+Icam1	Muc1	fibroblast	fibroblast	0.00508538309156184
+Nrg2	Erbb3	leukocyte	leukocyte	0.00506251324572458
+Icam1	Muc1	leukocyte	endocardial cell	0.00503256929185059
+Col18a1	Gpc1	endocardial cell	leukocyte	0.00499168654917007
+Il4	Il13ra1	leukocyte	endocardial cell	0.00498038073337364
+Icam1	Muc1	fibroblast	leukocyte	0.00488918544130761
+Izumo1	Cd9	smooth muscle cell	fibroblast	0.00488114082959296
+Il4	Il13ra1	leukocyte	fibroblast	0.00486234028695621
+Cxcl2	Cxcr2	endocardial cell	leukocyte	0.00485873904209496
+Egfl7	Notch1	smooth muscle cell	leukocyte	0.0048515886912266
+Cthrc1	Fzd6	endocardial cell	fibroblast	0.00476728105997486
+Efna2	Epha7	endocardial cell	smooth muscle cell	0.00476245412780886
+Efna5	Ephb2	fibroblast	smooth muscle cell	0.0047520231923275
+Wnt9a	Fzd7	smooth muscle cell	leukocyte	0.00475061317735957
+Jag1	Notch3	leukocyte	fibroblast	0.00474790189193525
+Tnc	Itgav	fibroblast	leukocyte	0.00466770366124949
+Ccl9	Ccr1	smooth muscle cell	leukocyte	0.00466695330248213
+Bmp6	Bmpr1a	leukocyte	smooth muscle cell	0.00464913384477643
+Wnt4	Fzd4	endocardial cell	fibroblast	0.00464465296465974
+Bmp6	Bmpr1a	smooth muscle cell	endocardial cell	0.0046195401679774
+Efna2	Epha7	leukocyte	smooth muscle cell	0.00459186182561353
+Efna2	Epha7	fibroblast	fibroblast	0.00458213837805697
+Col18a1	Gpc1	endocardial cell	endocardial cell	0.00458135743415248
+Izumo1	Cd9	smooth muscle cell	endocardial cell	0.00452258380140554
+Egf	Nrp1	smooth muscle cell	leukocyte	0.00438328405639227
+Izumo1	Cd9	endocardial cell	leukocyte	0.00426053952872357
+Bmp6	Acvr1	smooth muscle cell	endocardial cell	0.00420081060627639
+Icam1	Muc1	endocardial cell	smooth muscle cell	0.00417987422587948
+Icam1	Muc1	fibroblast	endocardial cell	0.0041695807001061
+Cxcl1	Cxcr2	endocardial cell	leukocyte	0.00414208820639599
+Sema4d	Plxna2	smooth muscle cell	endocardial cell	0.00404794086576011
+Il4	Il13ra1	leukocyte	smooth muscle cell	0.00403809954249827
+Gdf2	Bmpr2	fibroblast	endocardial cell	0.00393195946795668
+Vtn	Itgav	smooth muscle cell	leukocyte	0.00382880269688523
+Gdf11	Acvr1b	fibroblast	leukocyte	0.00382643617594422
+Lefty1	Acvr1b	leukocyte	endocardial cell	0.00382200875280011
+Pdgfc	Pdgfrb	fibroblast	endocardial cell	0.00378064796337788
+Cdh1	Igf1r	leukocyte	smooth muscle cell	0.00375178887902171
+Tnc	Itgav	fibroblast	endocardial cell	0.00374070468492503
+Cxcl9	Cxcr3	leukocyte	leukocyte	0.00372880309740787
+Pdgfc	Pdgfrb	leukocyte	leukocyte	0.00371048730532989
+Icam1	Muc1	leukocyte	smooth muscle cell	0.00369561285856428
+Has2	Cd44	fibroblast	smooth muscle cell	0.00369473681855656
+Wnt9a	Fzd7	smooth muscle cell	endocardial cell	0.00367333733543156
+F9	Lrp1	fibroblast	fibroblast	0.00366739427136503
+Hbegf	Erbb2	fibroblast	fibroblast	0.00363085892038003
+Ptn	Sdc4	smooth muscle cell	endocardial cell	0.00359366038674791
+Pdgfc	Pdgfrb	smooth muscle cell	leukocyte	0.00354183752240534
+Bdnf	Sorcs2	smooth muscle cell	endocardial cell	0.00352361034687027
+Mmp9	Cd44	smooth muscle cell	leukocyte	0.00350926519204015
+Sema4d	Plxna2	endocardial cell	leukocyte	0.00341022338145533
+Mmp9	Cd44	endocardial cell	fibroblast	0.00339774579452963
+Lefty1	Acvr1b	smooth muscle cell	endocardial cell	0.00337581976589827
+Wnt4	Fzd4	fibroblast	smooth muscle cell	0.00336274833293992
+Ptn	Sdc4	fibroblast	endocardial cell	0.00335125890695142
+Mmp9	Cd44	fibroblast	fibroblast	0.00332075326132688
+Egf	Nrp1	fibroblast	smooth muscle cell	0.0033169558313946
+Rspo1	Lrp6	endocardial cell	endocardial cell	0.00330014306986554
+Fgf9	Fgfr2	fibroblast	smooth muscle cell	0.00330001705567023
+Ptn	Sdc4	leukocyte	leukocyte	0.0032821922531678
+Efna5	Epha4	leukocyte	endocardial cell	0.00310197179553712
+Vtn	Itgav	smooth muscle cell	endocardial cell	0.00306840819925964
+Icam1	Muc1	fibroblast	smooth muscle cell	0.00306188651492313
+Ptn	Sdc4	leukocyte	smooth muscle cell	0.0030153837196473
+Ebi3	Il6st	fibroblast	endocardial cell	0.00299608866992011
+Ebi3	Il6st	endocardial cell	leukocyte	0.0029885042196021
+Sema4d	Plxna2	leukocyte	leukocyte	0.00297405510669567
+Icosl	Icos	endocardial cell	leukocyte	0.00297198878248867
+Hbegf	Erbb2	fibroblast	endocardial cell	0.00297160598515167
+Gdf11	Acvr1b	fibroblast	smooth muscle cell	0.00290528637819315
+Efna5	Ephb2	endocardial cell	leukocyte	0.00290054622907004
+Egf	Nrp1	leukocyte	smooth muscle cell	0.00288740660782439
+Gdf5	Bmpr2	smooth muscle cell	endocardial cell	0.00287720769800801
+Gdf11	Acvr1b	fibroblast	fibroblast	0.0028730940666964
+Icosl	Icos	fibroblast	leukocyte	0.00282936598306512
+Icam1	Itgal	endocardial cell	fibroblast	0.00279320776831454
+Bmp6	Bmpr1a	leukocyte	fibroblast	0.00277171043159721
+Rspo1	Lrp6	endocardial cell	smooth muscle cell	0.00269339449472116
+Tnfsf13b	Tnfrsf13c	leukocyte	leukocyte	0.00266537352998714
+Lefty1	Acvr1b	leukocyte	leukocyte	0.00265274125503319
+Cdh1	Igf1r	leukocyte	endocardial cell	0.00263916278538983
+Ebi3	Il6st	endocardial cell	smooth muscle cell	0.00263756057726701
+Tgfb3	Eng	leukocyte	smooth muscle cell	0.0026350754700857
+Gdf11	Acvr1b	smooth muscle cell	endocardial cell	0.00259576578839707
+Bmp6	Acvr1	smooth muscle cell	fibroblast	0.00255801135298031
+Vtn	Itgav	endocardial cell	fibroblast	0.00255046007724401
+Vtn	Itgav	endocardial cell	smooth muscle cell	0.00254428553899846
+Efna2	Epha1	fibroblast	smooth muscle cell	0.00251359374583807
+Bmp15	Bmpr1a	fibroblast	smooth muscle cell	0.00248902563749287
+Col18a1	Gpc1	fibroblast	leukocyte	0.00248451608057082
+Icam1	Itgal	leukocyte	fibroblast	0.00246959931983429
+Ccl12	Ccr2	leukocyte	endocardial cell	0.00244634561074128
+Il16	Kcnd2	leukocyte	smooth muscle cell	0.00241910023360216
+F9	Lrp1	leukocyte	fibroblast	0.00240978004526018
+Mfge8	Itgb3	leukocyte	leukocyte	0.00237020794478204
+Lefty1	Acvr1b	smooth muscle cell	leukocyte	0.00234305490692402
+Wnt2b	Fzd4	fibroblast	smooth muscle cell	0.00233335348062937
+Sema5a	Plxnb3	fibroblast	endocardial cell	0.00229658434914123
+Col18a1	Gpc1	fibroblast	endocardial cell	0.00228028264673129
+Efna2	Epha7	smooth muscle cell	smooth muscle cell	0.00228000595794913
+Rspo1	Lrp6	leukocyte	leukocyte	0.00226411960582533
+Efna2	Epha1	fibroblast	endocardial cell	0.00225664909455983
+Hbegf	Erbb2	smooth muscle cell	leukocyte	0.00222954438891082
+Cdh1	Igf1r	leukocyte	fibroblast	0.00221141495106477
+Csf3	Csf3r	leukocyte	leukocyte	0.00221044788826534
+Ccl24	Ackr2	leukocyte	smooth muscle cell	0.0021961785044375
+Icam1	Itgal	smooth muscle cell	leukocyte	0.00218481695090913
+Rspo1	Lrp6	leukocyte	fibroblast	0.00218041577803186
+Icosl	Icos	leukocyte	endocardial cell	0.00216234698914412
+Ebi3	Il6st	fibroblast	fibroblast	0.00214084814365749
+Bmp6	Bmpr1a	fibroblast	smooth muscle cell	0.00213142722057755
+Gdf2	Bmpr2	fibroblast	smooth muscle cell	0.00208638694309383
+Egf	Nrp1	endocardial cell	smooth muscle cell	0.00206784613385212
+Icam1	Itgal	fibroblast	fibroblast	0.00204611065716488
+Bmp6	Bmpr1a	leukocyte	endocardial cell	0.00203219770195813
+Wnt10b	Fzd4	leukocyte	endocardial cell	0.00202292927255187
+Lefty1	Acvr1b	leukocyte	smooth muscle cell	0.00201413866029456
+Lefty1	Acvr1b	leukocyte	fibroblast	0.00199182079874517
+Gdf2	Bmpr2	fibroblast	fibroblast	0.00195736190030551
+Hbegf	Erbb2	fibroblast	smooth muscle cell	0.00195167387728725
+Wnt4	Fzd4	smooth muscle cell	smooth muscle cell	0.00195084334156112
+Bdnf	Sorcs2	smooth muscle cell	leukocyte	0.00192941046744806
+Gdf5	Bmpr2	fibroblast	endocardial cell	0.00191240428588558
+Vtn	Itgav	leukocyte	fibroblast	0.00189898088818317
+Vtn	Itgav	leukocyte	smooth muscle cell	0.00189438354897121
+Ptn	Sdc4	leukocyte	fibroblast	0.00185014031189554
+Bmp6	Acvr1	leukocyte	endocardial cell	0.00184799294951773
+Wnt2b	Fzd4	endocardial cell	smooth muscle cell	0.00184086830270991
+Cdh1	Igf1r	leukocyte	leukocyte	0.00181199327469872
+Wnt9a	Fzd7	endocardial cell	leukocyte	0.00180810871930421
+Gdf11	Acvr1b	smooth muscle cell	leukocyte	0.00180164291623871
+Il1rn	Il1r1	fibroblast	fibroblast	0.00179634228946885
+Lefty1	Acvr1b	smooth muscle cell	smooth muscle cell	0.00177900406316465
+Lefty1	Acvr1b	smooth muscle cell	fibroblast	0.00175929163364815
+Mmp9	Cd44	endocardial cell	endocardial cell	0.00174725693749419
+F9	Lrp1	fibroblast	smooth muscle cell	0.0017387733003202
+Bmp3	Acvr2b	fibroblast	leukocyte	0.00173118861740906
+Mmp9	Cd44	fibroblast	endocardial cell	0.00170766429404501
+Fgf9	Fgfr2	leukocyte	fibroblast	0.00170535859398698
+Has2	Cd44	endocardial cell	leukocyte	0.0016686111894408
+Nts	Ngfr	endocardial cell	leukocyte	0.00164822192071589
+Cxcl9	Cxcr3	endocardial cell	leukocyte	0.00162756393796851
+F9	Lrp1	fibroblast	leukocyte	0.00159443685878964
+Ccl22	Dpp4	endocardial cell	leukocyte	0.00157799976251043
+Efna5	Epha4	leukocyte	fibroblast	0.00157606991683712
+Egfl7	Notch1	fibroblast	smooth muscle cell	0.00157297320575923
+Efna2	Epha7	endocardial cell	fibroblast	0.0015272829598092
+Gdf5	Bmpr2	smooth muscle cell	smooth muscle cell	0.00152671171272591
+Bmp6	Acvr1	smooth muscle cell	smooth muscle cell	0.00150242527839869
+Bmp15	Bmpr1a	fibroblast	fibroblast	0.00148390185232097
+Bmp3	Acvr2b	fibroblast	fibroblast	0.00148028649328766
+Efna2	Epha7	leukocyte	fibroblast	0.00147257530085324
+Cthrc1	Fzd6	smooth muscle cell	endocardial cell	0.00146653598533403
+Wnt10b	Fzd4	endocardial cell	smooth muscle cell	0.00146277620416613
+Egf	Nrp1	smooth muscle cell	smooth muscle cell	0.00145785452929837
+Efna5	Ephb2	leukocyte	fibroblast	0.00145679289446734
+Wnt2	Fzd9	endocardial cell	endocardial cell	0.00143832263513497
+Egfl7	Notch1	fibroblast	fibroblast	0.00143769178828913
+Gdf5	Bmpr2	smooth muscle cell	fibroblast	0.0014322977571977
+Npy	Npy1r	fibroblast	fibroblast	0.00142998501522959
+Cthrc1	Fzd6	fibroblast	smooth muscle cell	0.00140885837369352
+Col2a1	Itga1	smooth muscle cell	smooth muscle cell	0.0014066035525656
+Ccl22	Dpp4	leukocyte	fibroblast	0.00139893001765594
+Wnt9a	Fzd7	endocardial cell	endocardial cell	0.00139809178671775
+Wnt10b	Fzd4	fibroblast	smooth muscle cell	0.00138340033592481
+Vtn	Itgav	endocardial cell	leukocyte	0.0013803439081442
+Gdf11	Acvr1b	smooth muscle cell	smooth muscle cell	0.00136792785303021
+Wnt10b	Fzd4	leukocyte	fibroblast	0.00136736519971058
+Wnt4	Fzd4	leukocyte	leukocyte	0.00135953150212817
+Gdf2	Bmpr2	fibroblast	leukocyte	0.00135804858772799
+Gdf11	Acvr1b	smooth muscle cell	fibroblast	0.00135277039389628
+Bmp6	Acvr1	smooth muscle cell	leukocyte	0.00132902854649942
+Cxcl1	Cxcr2	smooth muscle cell	leukocyte	0.00130393387597518
+Bmp6	Bmpr1a	fibroblast	fibroblast	0.00127070961144788
+Tnc	Itgb6	smooth muscle cell	fibroblast	0.00126918591490887
+Sema4d	Plxna2	fibroblast	endocardial cell	0.00126149956662305
+Mmp9	Cd44	smooth muscle cell	fibroblast	0.00124259344631717
+Rspo1	Lrp6	leukocyte	endocardial cell	0.00123334314143745
+Efna5	Ephb2	smooth muscle cell	leukocyte	0.00123316467724788
+Adam12	Itgb1	smooth muscle cell	smooth muscle cell	0.00122580215073438
+Col2a1	Itga1	smooth muscle cell	endocardial cell	0.00119384932931621
+Icosl	Icos	leukocyte	fibroblast	0.00117676697829288
+Il16	Kcnd2	leukocyte	endocardial cell	0.00115759034827673
+Cxcl2	Cxcr2	leukocyte	fibroblast	0.00114745205066917
+F9	Lrp1	leukocyte	smooth muscle cell	0.00114251724584367
+Npy	Npy1r	leukocyte	smooth muscle cell	0.00114021356386256
+Il1rn	Il1r1	endocardial cell	fibroblast	0.00113555091765455
+Col18a1	Gpc1	leukocyte	smooth muscle cell	0.00113057147044795
+Bmp6	Acvr1	leukocyte	fibroblast	0.00112530351595263
+Bmp3	Acvr2b	fibroblast	smooth muscle cell	0.00111923526029558
+Vtn	Itgav	endocardial cell	endocardial cell	0.00110620966940745
+Fgf9	Fgfr2	leukocyte	endocardial cell	0.00110279568079417
+Bmp15	Bmpr1a	fibroblast	endocardial cell	0.00108798592372449
+Ccl12	Ccr2	smooth muscle cell	leukocyte	0.0010554918605028
+F9	Lrp1	leukocyte	leukocyte	0.00104767631768931
+Wnt4	Fzd4	endocardial cell	smooth muscle cell	0.00104559405700076
+Lipc	Ldlr	leukocyte	leukocyte	0.00104345142552164
+Lamc2	Itgb4	endocardial cell	endocardial cell	0.00103435868665593
+Tnfsf13b	Tnfrsf17	fibroblast	fibroblast	0.00103430607287506
+Vtn	Itgav	leukocyte	leukocyte	0.00102775445264698
+Cxcl1	Cxcr2	leukocyte	smooth muscle cell	0.00101821783185616
+Gdf5	Bmpr2	fibroblast	smooth muscle cell	0.00101476512270912
+Cxcl1	Cxcr2	fibroblast	smooth muscle cell	0.0010091952239454
+Rspo1	Lrp6	leukocyte	smooth muscle cell	0.00100658655001435
+Gdf5	Bmpr2	smooth muscle cell	leukocyte	0.0009937507959385
+Ccl24	Ackr2	fibroblast	fibroblast	0.000979986837519705
+Icosl	Icos	endocardial cell	endocardial cell	0.000968480495204
+Ltb	Tnfrsf1a	fibroblast	leukocyte	0.000965721141624762
+Ppbp	Cxcr2	leukocyte	leukocyte	0.000952033225183651
+Gdf5	Bmpr2	fibroblast	fibroblast	0.000952010649570267
+Bmp6	Bmpr1a	fibroblast	endocardial cell	0.000931674940788242
+Bmp3	Acvr2b	fibroblast	endocardial cell	0.000926618994549
+Icosl	Icos	fibroblast	endocardial cell	0.000922004075028069
+Adam12	Itgb1	leukocyte	smooth muscle cell	0.000912949279217706
+Adam12	Itgb1	smooth muscle cell	endocardial cell	0.000912275341685573
+Il1rn	Il1r1	fibroblast	smooth muscle cell	0.000887764828720623
+Efna5	Ephb2	fibroblast	leukocyte	0.000878294308085127
+Dll4	Notch4	endocardial cell	fibroblast	0.000870405463150635
+Bmp6	Acvr1	fibroblast	endocardial cell	0.000847225011700411
+Mmp9	Cd44	endocardial cell	smooth muscle cell	0.000842841054194272
+Efna2	Epha1	endocardial cell	smooth muscle cell	0.000837811645821434
+Wnt2	Fzd9	fibroblast	endocardial cell	0.000836948621114413
+Sema5a	Plxnb3	endocardial cell	leukocyte	0.000834851969043485
+Ltb	Tnfrsf1a	fibroblast	endocardial cell	0.000830983018319872
+Izumo1	Cd9	smooth muscle cell	leukocyte	0.000829200963672048
+Hbegf	Erbb2	leukocyte	leukocyte	0.000827779004805692
+Mmp9	Cd44	fibroblast	smooth muscle cell	0.000823742371781312
+Vtn	Itgav	leukocyte	endocardial cell	0.00082364395321103
+Cd40lg	Cd40	leukocyte	leukocyte	0.00081962491122462
+Dll4	Notch4	endocardial cell	leukocyte	0.000811394257271551
+Ptn	Sdc4	leukocyte	endocardial cell	0.000811215515892601
+Efna2	Epha1	leukocyte	smooth muscle cell	0.000807801022384206
+Ebi3	Il6st	fibroblast	leukocyte	0.000784362261496387
+Npy	Npy1r	endocardial cell	fibroblast	0.000782411008138689
+Sema4d	Plxna2	smooth muscle cell	fibroblast	0.000774338487716149
+Dll4	Notch4	endocardial cell	smooth muscle cell	0.000773942479905435
+Efna2	Epha7	fibroblast	endocardial cell	0.000769936835150949
+Bmp6	Bmpr1a	smooth muscle cell	leukocyte	0.000764232754242985
+Bmp15	Bmpr1a	smooth muscle cell	smooth muscle cell	0.000753427704328496
+Efna2	Epha1	endocardial cell	endocardial cell	0.000752168839966719
+Ccl24	Ackr2	fibroblast	endocardial cell	0.000745310747229711
+Lipc	Ldlr	leukocyte	fibroblast	0.000743654554211263
+Efna2	Epha7	smooth muscle cell	fibroblast	0.000731180638046644
+Efna2	Epha1	leukocyte	endocardial cell	0.000725225963330854
+Wnt4	Fzd4	fibroblast	leukocyte	0.00072250876589965
+Ebi3	Il6st	fibroblast	smooth muscle cell	0.000692253658418563
+Tnfsf13b	Tnfrsf17	endocardial cell	leukocyte	0.000692032318126271
+Cthrc1	Fzd6	fibroblast	fibroblast	0.000689193075836909
+Adam12	Itgb1	leukocyte	endocardial cell	0.00067944171507691
+Col18a1	Gpc1	leukocyte	fibroblast	0.000668502584159709
+Sema4d	Plxna2	smooth muscle cell	smooth muscle cell	0.000667890253829959
+Bmp6	Acvr1	leukocyte	smooth muscle cell	0.000660937038558628
+Gdf5	Bmpr2	fibroblast	leukocyte	0.000660520018270055
+Mmp9	Cd44	smooth muscle cell	endocardial cell	0.000638991305075859
+Cthrc1	Fzd6	endocardial cell	leukocyte	0.000622673821259385
+Adam12	Itgb1	smooth muscle cell	leukocyte	0.000621668150355616
+Adam12	Itgb1	smooth muscle cell	fibroblast	0.000617309611271796
+Ltb	Tnfrsf1a	fibroblast	fibroblast	0.000616072413405824
+Fgf9	Fgfr2	fibroblast	fibroblast	0.000607329024903662
+Egfl7	Notch1	smooth muscle cell	smooth muscle cell	0.000600843854717738
+Lipc	Ldlr	smooth muscle cell	leukocyte	0.000598919133201808
+Rspo1	Lrp6	smooth muscle cell	leukocyte	0.000592683037506303
+Has2	Cd44	endocardial cell	fibroblast	0.000590837458837145
+Efna2	Epha1	fibroblast	fibroblast	0.000590270594006345
+Efna5	Epha4	leukocyte	smooth muscle cell	0.000588683723300758
+Bmp6	Acvr1	leukocyte	leukocyte	0.000584657489668585
+Bdnf	Sorcs2	fibroblast	endocardial cell	0.000578540162923274
+Dll4	Notch3	leukocyte	smooth muscle cell	0.000575280159769146
+Rspo1	Lrp6	smooth muscle cell	fibroblast	0.000570771722052871
+Ccl12	Ccr2	leukocyte	smooth muscle cell	0.000561737646328616
+Il1rn	Il1r1	endocardial cell	smooth muscle cell	0.0005611971459032
+Npy	Npy1r	smooth muscle cell	smooth muscle cell	0.000557708950128036
+Pdgfc	Pdgfrb	endocardial cell	leukocyte	0.00055118536945567
+Egfl7	Notch1	smooth muscle cell	fibroblast	0.00054916909761011
+Hbegf	Erbb2	endocardial cell	leukocyte	0.000534527564849267
+Col2a1	Itga1	smooth muscle cell	fibroblast	0.000530837504642246
+Dll4	Notch4	leukocyte	endocardial cell	0.000529886391104307
+Icosl	Icos	endocardial cell	fibroblast	0.000527055033997065
+Ltb	Tnfrsf1a	smooth muscle cell	leukocyte	0.000519978779404026
+Il1rn	Il1r1	fibroblast	endocardial cell	0.000516199423551112
+Bmp6	Acvr1	fibroblast	fibroblast	0.000515903096231122
+Wnt9a	Fzd7	leukocyte	smooth muscle cell	0.000513515551593367
+Icosl	Icos	fibroblast	fibroblast	0.00050176218469634
+Wnt2b	Fzd4	fibroblast	leukocyte	0.000501336459580752
+Dll4	Notch3	fibroblast	smooth muscle cell	0.000476941676529178
+Npy	Npy1r	fibroblast	endocardial cell	0.000476343195756078
+Hmgb1	Cxcr4	smooth muscle cell	smooth muscle cell	0.000465009308813441
+Adam12	Itgb1	leukocyte	leukocyte	0.000463004155637795
+Adam12	Itgb1	leukocyte	fibroblast	0.000459758015865051
+Bdnf	Sorcs2	smooth muscle cell	smooth muscle cell	0.000454702874346165
+Bmp15	Bmpr1a	smooth muscle cell	fibroblast	0.000449176878374439
+Ltb	Tnfrsf1a	smooth muscle cell	endocardial cell	0.000447430958013895
+Hmgb1	Cxcr4	endocardial cell	smooth muscle cell	0.000439336408677315
+Dll4	Notch4	fibroblast	endocardial cell	0.000439307525996899
+Lipc	Ldlr	smooth muscle cell	fibroblast	0.000426842045653567
+Wnt4	Fzd4	smooth muscle cell	leukocyte	0.000419151621121346
+Wnt1	Fzd6	fibroblast	endocardial cell	0.000413508422120839
+Lamc2	Itgb4	leukocyte	endocardial cell	0.000413488032107284
+Ccl24	Ackr2	endocardial cell	fibroblast	0.000408154432136292
+Bdnf	Sorcs2	leukocyte	fibroblast	0.000405405228279369
+Efna2	Epha1	smooth muscle cell	smooth muscle cell	0.000401098990740494
+Wnt2b	Fzd4	endocardial cell	leukocyte	0.000395522755166133
+Hmgb1	Cxcr4	fibroblast	smooth muscle cell	0.000393162630824873
+Fgf9	Fgfr2	fibroblast	endocardial cell	0.000392738411643295
+Nts	Ngfr	endocardial cell	fibroblast	0.000385409393885167
+Il4	Il13ra1	fibroblast	leukocyte	0.000372719932289581
+Efna2	Epha1	smooth muscle cell	endocardial cell	0.000360097838316991
+Hmgb1	Cxcr4	leukocyte	smooth muscle cell	0.000351984196600405
+Lipc	Ldlr	leukocyte	smooth muscle cell	0.000348831515290873
+Wnt10b	Fzd4	smooth muscle cell	endocardial cell	0.000342289232771053
+Wnt9a	Fzd7	leukocyte	fibroblast	0.000341491812716302
+Bmp6	Bmpr1a	leukocyte	leukocyte	0.000336196242582671
+Il16	Kcnd2	endocardial cell	smooth muscle cell	0.000335363149814523
+Ltb	Tnfrsf1a	smooth muscle cell	fibroblast	0.000331715407004857
+Bmp15	Bmpr1a	smooth muscle cell	endocardial cell	0.000329333183437653
+Il1rn	Il1r1	endocardial cell	endocardial cell	0.000326313494116724
+Rspo1	Lrp6	smooth muscle cell	endocardial cell	0.00032285465726898
+Gdf2	Bmpr2	smooth muscle cell	endocardial cell	0.000322838830435408
+Il16	Kcnd2	fibroblast	smooth muscle cell	0.000320607303170992
+Nrg2	Erbb3	leukocyte	fibroblast	0.000317135844101497
+Bdnf	Sorcs2	fibroblast	leukocyte	0.000316789127144758
+Wnt10b	Fzd4	endocardial cell	leukocyte	0.000314287161993911
+Ccl24	Ackr2	endocardial cell	endocardial cell	0.000310414255736881
+Mmp9	Cd44	smooth muscle cell	smooth muscle cell	0.000308236352441383
+Tnfsf13b	Tnfrsf17	leukocyte	fibroblast	0.000308074707401479
+Nrg2	Erbb3	fibroblast	leukocyte	0.00030790535290073
+Wnt10b	Fzd4	leukocyte	smooth muscle cell	0.000307818245506268
+Ltb	Tnfrsf1a	fibroblast	smooth muscle cell	0.000303850535521781
+Has2	Cd44	endocardial cell	endocardial cell	0.0003038322791972
+Bmp6	Acvr1	fibroblast	smooth muscle cell	0.000303011107467808
+Ccl9	Ccr1	endocardial cell	fibroblast	0.000302607974401945
+Ltb	Ltbr	fibroblast	leukocyte	0.000301627926455443
+Wnt10b	Fzd4	fibroblast	leukocyte	0.000297232730639809
+Wnt2	Fzd9	endocardial cell	smooth muscle cell	0.000288138907053656
+Ltb	Ltbr	fibroblast	fibroblast	0.000278196981893218
+Btla	Tnfrsf14	leukocyte	leukocyte	0.000273119826703627
+Bmp6	Acvr1	fibroblast	leukocyte	0.000268040226373411
+Rspo1	Lrp6	smooth muscle cell	smooth muscle cell	0.000263496138826123
+Jag1	Notch3	endocardial cell	leukocyte	0.000262660660910774
+Npy	Npy1r	endocardial cell	endocardial cell	0.000260629416422017
+Efna2	Epha7	endocardial cell	endocardial cell	0.000256629396896152
+Ltb	Ltbr	fibroblast	endocardial cell	0.00024994372692843
+Efna2	Epha7	leukocyte	endocardial cell	0.000247436867487442
+Nrg2	Erbb3	leukocyte	smooth muscle cell	0.000247092720457851
+Tnfsf13b	Tnfrsf17	smooth muscle cell	leukocyte	0.000245352163225349
+Sema5a	Plxnb3	endocardial cell	endocardial cell	0.000245200654274884
+Sema4d	Plxna2	fibroblast	fibroblast	0.000241314707666818
+Cxcl2	Cxcr2	fibroblast	smooth muscle cell	0.000239399106120816
+Fgf9	Fgfr2	smooth muscle cell	smooth muscle cell	0.000237032273995994
+Il16	Kcnd2	smooth muscle cell	smooth muscle cell	0.000236904714770232
+Ccl9	Ccr1	fibroblast	fibroblast	0.000234719769353642
+Wnt10b	Fzd4	smooth muscle cell	fibroblast	0.000231364680652606
+Pdgfc	Pdgfrb	fibroblast	leukocyte	0.000229165390596876
+Cxcl9	Cxcr3	fibroblast	leukocyte	0.000228599683730339
+Cxcl1	Cxcr2	leukocyte	fibroblast	0.000228436065799603
+Cxcl1	Cxcr2	fibroblast	fibroblast	0.000226411853504451
+Wnt4	Fzd4	endocardial cell	leukocyte	0.000224652812806591
+F9	Lrp1	fibroblast	endocardial cell	0.000211495343649955
+Sema4d	Plxna2	fibroblast	smooth muscle cell	0.000208141199118046
+Cxcl2	Cxcr2	endocardial cell	smooth muscle cell	0.000207856275901325
+Omg	Rtn4rl1	leukocyte	smooth muscle cell	0.000207697046195177
+Wnt2b	Fzd4	smooth muscle cell	endocardial cell	0.000206360820959101
+Lipc	Ldlr	leukocyte	endocardial cell	0.000201002096583088
+Lipc	Ldlr	smooth muscle cell	smooth muscle cell	0.000200221940055369
+Efna2	Epha1	endocardial cell	fibroblast	0.000196744433607574
+Cd40lg	Cd40	leukocyte	endocardial cell	0.000195173352093565
+Efna2	Epha1	leukocyte	fibroblast	0.000189696998614499
+Ltb	Ltbr	fibroblast	smooth muscle cell	0.000182324099446341
+Fgf5	Fgfr3	smooth muscle cell	endocardial cell	0.000182231070639511
+Col18a1	Gpc1	leukocyte	leukocyte	0.000181437706704952
+Jag1	Notch3	fibroblast	leukocyte	0.000180172517237115
+Cxcl2	Cxcr2	smooth muscle cell	leukocyte	0.000179999047974255
+Bmp15	Bmpr1a	fibroblast	leukocyte	0.000179990745578821
+Ccl22	Dpp4	fibroblast	leukocyte	0.000179831408272534
+Cxcl1	Cxcr2	endocardial cell	smooth muscle cell	0.000177198038745675
+Gdf2	Bmpr2	smooth muscle cell	smooth muscle cell	0.000171305611370951
+Wnt2	Fzd9	fibroblast	smooth muscle cell	0.000167665762226804
+Col18a1	Gpc1	leukocyte	endocardial cell	0.000166523073566491
+Ltb	Tnfrsf1a	smooth muscle cell	smooth muscle cell	0.000163603988534473
+Il4	Il13ra1	smooth muscle cell	leukocyte	0.00016303238960851
+Ltb	Ltbr	smooth muscle cell	leukocyte	0.000162407256372782
+Gdf2	Bmpr2	smooth muscle cell	fibroblast	0.000160711836371458
+Il16	Kcnd2	endocardial cell	endocardial cell	0.000160478321650569
+Efna5	Epha4	leukocyte	leukocyte	0.00015717944554264
+Ccl9	Ccr1	endocardial cell	endocardial cell	0.000156474450616099
+Adam2	Itga6	leukocyte	endocardial cell	0.000154678942487471
+Bmp6	Bmpr1a	fibroblast	leukocyte	0.000154131467671492
+Il16	Kcnd2	fibroblast	endocardial cell	0.000153417338637985
+Amh	Acvr1	leukocyte	endocardial cell	0.000151385887552413
+Nrg2	Erbb3	endocardial cell	leukocyte	0.000150374754469104
+Ltb	Ltbr	smooth muscle cell	fibroblast	0.000149791198352916
+Cthrc1	Fzd6	smooth muscle cell	smooth muscle cell	0.000146710327108532
+Has2	Cd44	endocardial cell	smooth muscle cell	0.000146562484887926
+Btla	Tnfrsf14	leukocyte	fibroblast	0.000142074283011253
+Amh	Acvr1	fibroblast	endocardial cell	0.000141917277227124
+Wnt2b	Fzd4	smooth muscle cell	fibroblast	0.000139486144667446
+F9	Lrp1	leukocyte	endocardial cell	0.00013896985736508
+Omg	Rtn4rl1	fibroblast	smooth muscle cell	0.000135445719897567
+Ltb	Ltbr	smooth muscle cell	endocardial cell	0.00013457863605355
+Jag1	Notch3	smooth muscle cell	leukocyte	0.000133805290572556
+Efna2	Epha1	fibroblast	leukocyte	0.00012873211485491
+Npy	Npy1r	leukocyte	fibroblast	0.000128191556973712
+Ccl12	Ccr2	endocardial cell	fibroblast	0.000126487201080776
+Efna2	Epha7	smooth muscle cell	endocardial cell	0.000122860302315882
+Omg	Rtn4rl1	leukocyte	leukocyte	0.000122677913430342
+Hbegf	Erbb2	fibroblast	leukocyte	0.000122572956892623
+Ccl9	Ccr1	fibroblast	endocardial cell	0.000121370386986446
+Omg	Rtn4rl1	smooth muscle cell	smooth muscle cell	0.000119524230061252
+Btla	Tnfrsf14	leukocyte	endocardial cell	0.000116209550655938
+Lipc	Ldlr	smooth muscle cell	endocardial cell	0.00011537096841581
+Ccl22	Dpp4	endocardial cell	fibroblast	0.000113757262978476
+Il16	Kcnd2	smooth muscle cell	endocardial cell	0.0001133638893792
+Gdf2	Bmpr2	smooth muscle cell	leukocyte	0.000111504409267067
+Nrg2	Erbb3	smooth muscle cell	leukocyte	0.000111183617430069
+Csf3	Csf3r	fibroblast	leukocyte	0.000110419637194125
+Wnt9a	Fzd7	leukocyte	leukocyte	0.000101526427747694
+Ltb	Ltbr	smooth muscle cell	smooth muscle cell	9.81698117600944e-05
+Il4	Il13ra1	fibroblast	endocardial cell	9.50896743274319e-05
+Efna2	Epha1	smooth muscle cell	fibroblast	9.41906144983657e-05
+Dll4	Notch3	leukocyte	fibroblast	9.32484996253069e-05
+Il4	Il13ra1	fibroblast	fibroblast	9.28359455046366e-05
+Ccl12	Ccr2	fibroblast	fibroblast	9.2772311653386e-05
+Npy	Npy1r	fibroblast	leukocyte	9.21973749088624e-05
+Amh	Acvr1	leukocyte	fibroblast	9.21838319636435e-05
+Il1rn	Il1r1	fibroblast	leukocyte	9.18876254515997e-05
+Cthrc1	Fzd6	fibroblast	leukocyte	9.00182894018713e-05
+Adam2	Itga6	leukocyte	leukocyte	8.7518736855241e-05
+Amh	Acvr1	fibroblast	fibroblast	8.6418084592684e-05
+Efna5	Ephb2	leukocyte	smooth muscle cell	8.53301416752046e-05
+Omg	Rtn4rl1	fibroblast	leukocyte	8.00020924923966e-05
+Lamc2	Itgb4	smooth muscle cell	fibroblast	7.99237081231717e-05
+Omg	Rtn4rl1	leukocyte	fibroblast	7.97568337660923e-05
+Icam1	Muc1	smooth muscle cell	fibroblast	7.87052052589778e-05
+Wnt9a	Fzd7	leukocyte	endocardial cell	7.8503722289147e-05
+Lamc2	Itgb4	fibroblast	fibroblast	7.84518667988052e-05
+Dll4	Notch3	fibroblast	fibroblast	7.73085860686928e-05
+Il4	Il13ra1	fibroblast	smooth muscle cell	7.70988386138519e-05
+Tnfsf13b	Tnfrsf13c	fibroblast	smooth muscle cell	7.63125570628513e-05
+Tnfsf13b	Tnfrsf13c	endocardial cell	leukocyte	7.6134396456343e-05
+Icam1	Muc1	smooth muscle cell	leukocyte	7.56687031790832e-05
+Bdnf	Sorcs2	fibroblast	smooth muscle cell	7.46574817046866e-05
+Cthrc1	Fzd6	smooth muscle cell	fibroblast	7.17685634588587e-05
+Wnt2	Fzd9	leukocyte	endocardial cell	7.11984333097125e-05
+Omg	Rtn4rl1	smooth muscle cell	leukocyte	7.05979377988043e-05
+Amh	Acvr1	smooth muscle cell	endocardial cell	7.05930778683648e-05
+Gdf11	Acvr1b	leukocyte	endocardial cell	6.66679945568067e-05
+Wnt10b	Fzd4	leukocyte	leukocyte	6.61367901081352e-05
+Icam1	Muc1	smooth muscle cell	endocardial cell	6.45315601474057e-05
+Tnc	Itgav	leukocyte	fibroblast	6.38926550793612e-05
+Tnc	Itgav	leukocyte	smooth muscle cell	6.37379741079093e-05
+Npy	Npy1r	smooth muscle cell	fibroblast	6.27019191149569e-05
+Icosl	Icos	leukocyte	smooth muscle cell	5.88085258699072e-05
+Tnc	Itgb6	endocardial cell	fibroblast	5.82748378844875e-05
+Il1rn	Il1r1	endocardial cell	leukocyte	5.80864114898248e-05
+Dll4	Notch3	endocardial cell	leukocyte	5.66408934390066e-05
+Cxcl1	Cxcr2	smooth muscle cell	smooth muscle cell	5.57821354745818e-05
+Sema4d	Plxna2	smooth muscle cell	leukocyte	5.50708557059616e-05
+Bmp15	Bmpr1a	smooth muscle cell	leukocyte	5.44831729328517e-05
+Amh	Acvr1	leukocyte	smooth muscle cell	5.41433560255591e-05
+Cxcl2	Cxcr2	fibroblast	fibroblast	5.3708929707594e-05
+Wnt10b	Fzd4	smooth muscle cell	smooth muscle cell	5.20843078979027e-05
+Omg	Rtn4rl1	fibroblast	fibroblast	5.20119181475863e-05
+Btla	Tnfrsf14	fibroblast	leukocyte	5.16172677199039e-05
+Amh	Acvr1	fibroblast	smooth muscle cell	5.07568954498867e-05
+Npy	Npy1r	endocardial cell	leukocyte	5.04454524221722e-05
+Ccl12	Ccr2	endocardial cell	endocardial cell	4.98182675746143e-05
+Lamc2	Itgb4	smooth muscle cell	smooth muscle cell	4.92962677979905e-05
+Lamc2	Itgb4	fibroblast	smooth muscle cell	4.83884485064944e-05
+Ntng2	Lrrc4	leukocyte	smooth muscle cell	4.82786192603706e-05
+Amh	Acvr1	leukocyte	leukocyte	4.78946053396702e-05
+Nts	Ngfr	fibroblast	leukocyte	4.75564927522847e-05
+Icam1	Muc1	smooth muscle cell	smooth muscle cell	4.73880536230572e-05
+Cxcl2	Cxcr2	endocardial cell	fibroblast	4.6632329972162e-05
+Gdf11	Acvr1b	leukocyte	leukocyte	4.62722487020999e-05
+Lamc2	Itgb4	smooth muscle cell	leukocyte	4.5994619470204e-05
+Adam2	Itga6	smooth muscle cell	endocardial cell	4.59821495728587e-05
+Omg	Rtn4rl1	smooth muscle cell	fibroblast	4.58979765126617e-05
+Efna2	Epha7	fibroblast	leukocyte	4.58089629144501e-05
+Dll4	Notch3	smooth muscle cell	smooth muscle cell	4.55234229117302e-05
+Icosl	Icos	smooth muscle cell	leukocyte	4.54678807634667e-05
+Lamc2	Itgb4	fibroblast	leukocyte	4.51476019428087e-05
+Amh	Acvr1	fibroblast	leukocyte	4.48989803050193e-05
+Ccl24	Ackr2	smooth muscle cell	fibroblast	4.46205674150272e-05
+Fgf9	Fgfr2	smooth muscle cell	fibroblast	4.36229805507619e-05
+Amh	Acvr1	smooth muscle cell	fibroblast	4.29864403692231e-05
+Efna2	Epha1	endocardial cell	leukocyte	4.29079938614766e-05
+Omg	Rtn4rl1	leukocyte	endocardial cell	4.28659550277361e-05
+Npy	Npy1r	leukocyte	endocardial cell	4.27019690888167e-05
+Dll4	Notch4	smooth muscle cell	endocardial cell	4.19312953311164e-05
+Il4	Il13ra1	smooth muscle cell	endocardial cell	4.15934203933359e-05
+Col2a1	Itga1	smooth muscle cell	leukocyte	4.15123570173596e-05
+Efna2	Epha1	leukocyte	leukocyte	4.13710187518013e-05
+Wnt1	Fzd6	fibroblast	smooth muscle cell	4.13668375533677e-05
+Ppbp	Cxcr2	leukocyte	smooth muscle cell	4.07278676641333e-05
+Il4	Il13ra1	smooth muscle cell	fibroblast	4.06076110397744e-05
+Cxcl1	Cxcr2	endocardial cell	fibroblast	3.97541877308098e-05
+Cxcl9	Cxcr3	leukocyte	fibroblast	3.7946444462212e-05
+Ccl12	Ccr2	fibroblast	endocardial cell	3.65393162784302e-05
+Gdf11	Acvr1b	leukocyte	smooth muscle cell	3.51329873702659e-05
+Gdf11	Acvr1b	leukocyte	fibroblast	3.47436928477966e-05
+Tnc	Itgav	leukocyte	leukocyte	3.45795795828554e-05
+Ccl24	Ackr2	smooth muscle cell	endocardial cell	3.39353419542627e-05
+Il4	Il13ra1	smooth muscle cell	smooth muscle cell	3.37240024112564e-05
+Ntng2	Lrrc4	leukocyte	leukocyte	3.32679792685425e-05
+Nts	Ngfr	endocardial cell	smooth muscle cell	3.28545583639913e-05
+Wnt2	Fzd9	endocardial cell	fibroblast	3.28370330848424e-05
+Tnc	Itgb6	fibroblast	fibroblast	3.27353320689047e-05
+Btla	Tnfrsf14	smooth muscle cell	leukocyte	3.25660463976307e-05
+Icam1	Itgal	smooth muscle cell	fibroblast	3.16671441178063e-05
+Jag1	Notch3	leukocyte	leukocyte	3.1544374597165e-05
+Wnt2b	Fzd4	smooth muscle cell	smooth muscle cell	3.14008140130044e-05
+Bmp3	Acvr2b	leukocyte	leukocyte	3.07112919252885e-05
+Ccl24	Ackr2	fibroblast	smooth muscle cell	2.96657878947951e-05
+Fgf9	Fgfr2	smooth muscle cell	endocardial cell	2.82094538382555e-05
+Omg	Rtn4rl1	fibroblast	endocardial cell	2.79542258505325e-05
+Tnc	Itgav	leukocyte	endocardial cell	2.77121267192226e-05
+Tnfsf13b	Tnfrsf13c	smooth muscle cell	leukocyte	2.69925816716145e-05
+Btla	Tnfrsf14	fibroblast	fibroblast	2.68508016822341e-05
+Icosl	Icos	endocardial cell	smooth muscle cell	2.63393944369902e-05
+Bmp3	Acvr2b	leukocyte	fibroblast	2.62602873951757e-05
+Adam2	Itga6	smooth muscle cell	leukocyte	2.60171137957666e-05
+Amh	Acvr1	smooth muscle cell	smooth muscle cell	2.52477044575478e-05
+Icosl	Icos	fibroblast	smooth muscle cell	2.50753929737751e-05
+Omg	Rtn4rl1	smooth muscle cell	endocardial cell	2.46682384963517e-05
+Tnfsf13b	Tnfrsf13c	leukocyte	smooth muscle cell	2.27301852950025e-05
+Ccl9	Ccr1	smooth muscle cell	fibroblast	2.25299303070173e-05
+Amh	Acvr1	smooth muscle cell	leukocyte	2.23338361248987e-05
+Csf3	Csf3r	leukocyte	endocardial cell	2.21255124416935e-05
+Btla	Tnfrsf14	fibroblast	endocardial cell	2.19625926107751e-05
+Cd40lg	Cd40	leukocyte	fibroblast	2.15248647391028e-05
+Ntng2	Lrrc4	endocardial cell	smooth muscle cell	2.13712832751479e-05
+Npy	Npy1r	smooth muscle cell	endocardial cell	2.08866751841188e-05
+Efna2	Epha1	smooth muscle cell	leukocyte	2.05420312768077e-05
+Wnt1	Fzd6	fibroblast	fibroblast	2.02360567558746e-05
+Bmp3	Acvr2b	leukocyte	smooth muscle cell	1.98552373013274e-05
+Nrg2	Erbb3	fibroblast	fibroblast	1.92884085938952e-05
+Wnt2	Fzd9	fibroblast	fibroblast	1.91076111092892e-05
+Sema4d	Plxna2	fibroblast	leukocyte	1.71622716117879e-05
+Btla	Tnfrsf14	smooth muscle cell	fibroblast	1.69405412572823e-05
+Cxcl9	Cxcr3	endocardial cell	fibroblast	1.65630265174781e-05
+Ntng2	Lrrc4	leukocyte	endocardial cell	1.64958575867221e-05
+Bmp3	Acvr2b	leukocyte	endocardial cell	1.6438224095825e-05
+Efna5	Ephb2	leukocyte	leukocyte	1.57711725528684e-05
+Efna2	Epha7	endocardial cell	leukocyte	1.52686895709682e-05
+Nrg2	Erbb3	fibroblast	smooth muscle cell	1.50283401936831e-05
+Icosl	Icos	smooth muscle cell	endocardial cell	1.48165955191813e-05
+Ntng2	Lrrc4	endocardial cell	leukocyte	1.47265895303551e-05
+Efna2	Epha7	leukocyte	leukocyte	1.47217612782193e-05
+Wnt2	Fzd9	leukocyte	smooth muscle cell	1.42631689557385e-05
+Btla	Tnfrsf14	smooth muscle cell	endocardial cell	1.38565027086656e-05
+Sema5a	Plxnb3	leukocyte	leukocyte	1.30991725021021e-05
+Ccl22	Dpp4	fibroblast	fibroblast	1.29639619020622e-05
+Ntng2	Lrrc4	leukocyte	fibroblast	1.26949215830009e-05
+Cxcl1	Cxcr2	smooth muscle cell	fibroblast	1.25146615695041e-05
+Ccl24	Ackr2	endocardial cell	smooth muscle cell	1.23554953479998e-05
+Bdnf	Sorcs2	leukocyte	endocardial cell	1.21826029214136e-05
+Ccl9	Ccr1	smooth muscle cell	endocardial cell	1.16499192533734e-05
+Ccl12	Ccr2	endocardial cell	smooth muscle cell	1.14394287743559e-05
+Wnt10b	Fzd4	smooth muscle cell	leukocyte	1.1190658739886e-05
+Nts	Ngfr	fibroblast	fibroblast	1.1120298071877e-05
+Ppbp	Cxcr2	fibroblast	leukocyte	1.09139441871434e-05
+Lamc2	Itgb4	endocardial cell	fibroblast	1.06462793383795e-05
+Fgf5	Fgfr3	smooth muscle cell	fibroblast	1.05228432796029e-05
+Ntng2	Lrrc4	fibroblast	smooth muscle cell	1.02296768777446e-05
+Ntng2	Lrrc4	smooth muscle cell	smooth muscle cell	1.00689555681958e-05
+Dll4	Notch4	leukocyte	fibroblast	9.5203639433338e-06
+Nrg2	Erbb3	endocardial cell	fibroblast	9.42006911890837e-06
+Cthrc1	Fzd6	smooth muscle cell	leukocyte	9.37398175039838e-06
+Ppbp	Cxcr2	leukocyte	fibroblast	9.13725292027279e-06
+Dll4	Notch4	leukocyte	leukocyte	8.87490825573932e-06
+Tnfsf13b	Tnfrsf17	endocardial cell	fibroblast	8.79992303052144e-06
+Dll4	Notch4	leukocyte	smooth muscle cell	8.46526635211489e-06
+Ccl12	Ccr2	fibroblast	smooth muscle cell	8.39027381682294e-06
+Npy	Npy1r	leukocyte	leukocyte	8.26506915288094e-06
+Icosl	Icos	smooth muscle cell	fibroblast	8.06331288420831e-06
+Dll4	Notch4	fibroblast	fibroblast	7.89295139627913e-06
+Cxcl2	Cxcr2	smooth muscle cell	smooth muscle cell	7.70033777355959e-06
+Dll4	Notch3	smooth muscle cell	fibroblast	7.37899754100791e-06
+Dll4	Notch4	fibroblast	leukocyte	7.35783000796263e-06
+Nrg2	Erbb3	endocardial cell	smooth muscle cell	7.33953776838645e-06
+Efna2	Epha7	smooth muscle cell	leukocyte	7.30982435895922e-06
+Ntng2	Lrrc4	endocardial cell	endocardial cell	7.3021484614353e-06
+Ntng2	Lrrc4	fibroblast	leukocyte	7.04909716778185e-06
+Dll4	Notch4	fibroblast	smooth muscle cell	7.01821235737367e-06
+Nrg2	Erbb3	smooth muscle cell	fibroblast	6.964981354611e-06
+Ntng2	Lrrc4	smooth muscle cell	leukocyte	6.93834683407309e-06
+Nts	Ngfr	smooth muscle cell	leukocyte	6.88225581498246e-06
+Wnt2b	Fzd4	smooth muscle cell	leukocyte	6.74667299914934e-06
+Adam2	Itga6	leukocyte	smooth muscle cell	6.68469921825834e-06
+Bdnf	Sorcs2	leukocyte	leukocyte	6.6707834531751e-06
+Lamc2	Itgb4	endocardial cell	smooth muscle cell	6.56653513258119e-06
+Lamc2	Itgb4	endocardial cell	leukocyte	6.12673734040996e-06
+Fgf5	Fgfr3	smooth muscle cell	smooth muscle cell	5.84145077276014e-06
+Ntng2	Lrrc4	endocardial cell	fibroblast	5.61960489886675e-06
+Nrg2	Erbb3	smooth muscle cell	smooth muscle cell	5.42668456706598e-06
+Ccl12	Ccr2	smooth muscle cell	fibroblast	5.08647652134699e-06
+Lamc2	Itgb4	leukocyte	fibroblast	4.25588255764834e-06
+Npy	Npy1r	smooth muscle cell	leukocyte	4.04266637942264e-06
+Sema5a	Plxnb3	leukocyte	endocardial cell	3.84729962565102e-06
+Ntng2	Lrrc4	fibroblast	endocardial cell	3.49528001253289e-06
+Ntng2	Lrrc4	smooth muscle cell	endocardial cell	3.4403646923749e-06
+Tnfsf13b	Tnfrsf17	smooth muscle cell	fibroblast	3.11991231507927e-06
+Ntng2	Lrrc4	fibroblast	fibroblast	2.68990596193385e-06
+Btla	Tnfrsf14	leukocyte	smooth muscle cell	2.67504188340432e-06
+Ntng2	Lrrc4	smooth muscle cell	fibroblast	2.647644098345e-06
+Wnt1	Fzd6	fibroblast	leukocyte	2.64311305099949e-06
+Lamc2	Itgb4	leukocyte	smooth muscle cell	2.62499239844208e-06
+Lamc2	Itgb4	leukocyte	leukocyte	2.44918189290272e-06
+Cxcl9	Cxcr3	fibroblast	fibroblast	2.32636183143668e-06
+Csf3	Csf3r	leukocyte	fibroblast	2.06053841483678e-06
+Ccl12	Ccr2	smooth muscle cell	endocardial cell	2.00336038893479e-06
+Adam2	Itga6	smooth muscle cell	smooth muscle cell	1.98719253157827e-06
+Wnt10a	Fzd10	fibroblast	endocardial cell	1.91338453066786e-06
+Adam2	Itga6	leukocyte	fibroblast	1.86117253425463e-06
+Cxcl2	Cxcr2	smooth muscle cell	fibroblast	1.72756242454859e-06
+Wnt2	Fzd9	leukocyte	fibroblast	1.62546653516343e-06
+Nts	Ngfr	smooth muscle cell	fibroblast	1.60930151994518e-06
+Bdnf	Sorcs2	leukocyte	smooth muscle cell	1.57209907454864e-06
+Ccl24	Ackr2	smooth muscle cell	smooth muscle cell	1.35073680380221e-06
+Wnt10a	Fzd10	leukocyte	endocardial cell	1.31299494201854e-06
+Csf3	Csf3r	fibroblast	endocardial cell	1.10524707210498e-06
+Nts	Ngfr	fibroblast	smooth muscle cell	9.47959462908993e-07
+Wnt10a	Fzd10	fibroblast	fibroblast	8.02460786459149e-07
+Fgf5	Fgfr3	smooth muscle cell	leukocyte	7.85599272780654e-07
+Wnt10a	Fzd10	smooth muscle cell	endocardial cell	7.66835601046984e-07
+Dll4	Notch4	smooth muscle cell	fibroblast	7.53371286504807e-07
+Dll4	Notch4	smooth muscle cell	leukocyte	7.02294690626833e-07
+Dll4	Notch4	smooth muscle cell	smooth muscle cell	6.69878655927245e-07
+Cd40lg	Cd40	leukocyte	smooth muscle cell	6.49791384158372e-07
+Tnfsf13b	Tnfrsf13c	endocardial cell	smooth muscle cell	6.49270700450083e-07
+Dll4	Notch3	leukocyte	leukocyte	6.19529566902095e-07
+Adam2	Itga6	smooth muscle cell	fibroblast	5.53279667385398e-07
+Wnt10a	Fzd10	leukocyte	fibroblast	5.50661373551147e-07
+Dll4	Notch3	fibroblast	leukocyte	5.13627082874288e-07
+Btla	Tnfrsf14	fibroblast	smooth muscle cell	5.05559609949045e-07
+Ppbp	Cxcr2	fibroblast	smooth muscle cell	4.6689722878313e-07
+Ccl12	Ccr2	smooth muscle cell	smooth muscle cell	4.60017973211564e-07
+Icosl	Icos	smooth muscle cell	smooth muscle cell	4.02961294032931e-07
+Wnt10a	Fzd10	smooth muscle cell	fibroblast	3.21605766973694e-07
+Btla	Tnfrsf14	smooth muscle cell	smooth muscle cell	3.1896453341369e-07
+Tnc	Itgb6	leukocyte	fibroblast	2.42511972181386e-07
+Tnfsf13b	Tnfrsf13c	smooth muscle cell	smooth muscle cell	2.30191519531316e-07
+Nts	Ngfr	smooth muscle cell	smooth muscle cell	1.37186305137265e-07
+Wnt10a	Fzd10	fibroblast	smooth muscle cell	1.16714008232223e-07
+Ppbp	Cxcr2	fibroblast	fibroblast	1.04747886688968e-07
+Csf3	Csf3r	fibroblast	fibroblast	1.0293113237308e-07
+Wnt10a	Fzd10	leukocyte	smooth muscle cell	8.00910115114859e-08
+Dll4	Notch3	smooth muscle cell	leukocyte	4.90249941727919e-08
+Wnt10a	Fzd10	smooth muscle cell	smooth muscle cell	4.67759905125394e-08
+Ppbp	Cxcr2	endocardial cell	endocardial cell	0
+Ltb	Ltbr	endocardial cell	endocardial cell	0
+Csf3	Csf3r	endocardial cell	endocardial cell	0
+Cdh1	Igf1r	endocardial cell	endocardial cell	0
+Wnt1	Fzd6	endocardial cell	endocardial cell	0
+Lipc	Ldlr	endocardial cell	endocardial cell	0
+Omg	Rtn4rl1	endocardial cell	endocardial cell	0
+Gdf11	Acvr1b	endocardial cell	endocardial cell	0
+Cd40lg	Cd40	endocardial cell	endocardial cell	0
+Dll4	Notch3	endocardial cell	endocardial cell	0
+Ltb	Tnfrsf1a	endocardial cell	endocardial cell	0
+Jag1	Notch3	endocardial cell	endocardial cell	0
+Nrg2	Erbb3	endocardial cell	endocardial cell	0
+Gdf5	Bmpr2	endocardial cell	endocardial cell	0
+Gnas	Lhcgr	endocardial cell	endocardial cell	0
+Adam12	Itgb1	endocardial cell	endocardial cell	0
+Icam1	Itgal	endocardial cell	endocardial cell	0
+Cxcl2	Cxcr2	endocardial cell	endocardial cell	0
+Cxcl1	Cxcr2	endocardial cell	endocardial cell	0
+Tnc	Itgb6	endocardial cell	endocardial cell	0
+Tnfsf13b	Tnfrsf17	endocardial cell	endocardial cell	0
+Efna5	Ephb2	endocardial cell	endocardial cell	0
+Adam2	Itga6	endocardial cell	endocardial cell	0
+Amh	Acvr1	endocardial cell	endocardial cell	0
+Nts	Ngfr	endocardial cell	endocardial cell	0
+Cxcl9	Cxcr3	endocardial cell	endocardial cell	0
+F9	Lrp1	endocardial cell	endocardial cell	0
+Fgf5	Fgfr3	endocardial cell	endocardial cell	0
+Ccl22	Dpp4	endocardial cell	endocardial cell	0
+Btla	Tnfrsf14	endocardial cell	endocardial cell	0
+Hsp90b1	Tlr9	endocardial cell	endocardial cell	0
+Bdnf	Sorcs2	endocardial cell	endocardial cell	0
+Fgf9	Fgfr2	endocardial cell	endocardial cell	0
+Tnfsf13b	Tnfrsf13c	endocardial cell	endocardial cell	0
+Bmp3	Acvr2b	endocardial cell	endocardial cell	0
+Col2a1	Itga1	endocardial cell	endocardial cell	0
+Gdf2	Bmpr2	endocardial cell	endocardial cell	0
+Bmp15	Bmpr1a	endocardial cell	endocardial cell	0
+Wnt10a	Fzd10	endocardial cell	endocardial cell	0
+Ppbp	Cxcr2	endocardial cell	fibroblast	0
+Ltb	Ltbr	endocardial cell	fibroblast	0
+Csf3	Csf3r	endocardial cell	fibroblast	0
+Cdh1	Igf1r	endocardial cell	fibroblast	0
+Wnt1	Fzd6	endocardial cell	fibroblast	0
+Lipc	Ldlr	endocardial cell	fibroblast	0
+Omg	Rtn4rl1	endocardial cell	fibroblast	0
+Gdf11	Acvr1b	endocardial cell	fibroblast	0
+Cd40lg	Cd40	endocardial cell	fibroblast	0
+Ltb	Tnfrsf1a	endocardial cell	fibroblast	0
+Gdf5	Bmpr2	endocardial cell	fibroblast	0
+Gnas	Lhcgr	endocardial cell	fibroblast	0
+Sema5a	Plxnb3	endocardial cell	fibroblast	0
+Adam12	Itgb1	endocardial cell	fibroblast	0
+Calm1	Kcnq1	endocardial cell	fibroblast	0
+Adam2	Itga6	endocardial cell	fibroblast	0
+Amh	Acvr1	endocardial cell	fibroblast	0
+F9	Lrp1	endocardial cell	fibroblast	0
+Fgf5	Fgfr3	endocardial cell	fibroblast	0
+Btla	Tnfrsf14	endocardial cell	fibroblast	0
+Il16	Kcnd2	endocardial cell	fibroblast	0
+Hsp90b1	Tlr9	endocardial cell	fibroblast	0
+Bdnf	Sorcs2	endocardial cell	fibroblast	0
+Fgf9	Fgfr2	endocardial cell	fibroblast	0
+Tnfsf13b	Tnfrsf13c	endocardial cell	fibroblast	0
+Bmp3	Acvr2b	endocardial cell	fibroblast	0
+Col2a1	Itga1	endocardial cell	fibroblast	0
+Gdf2	Bmpr2	endocardial cell	fibroblast	0
+Bmp15	Bmpr1a	endocardial cell	fibroblast	0
+Wnt10a	Fzd10	endocardial cell	fibroblast	0
+Ppbp	Cxcr2	endocardial cell	leukocyte	0
+Ltb	Ltbr	endocardial cell	leukocyte	0
+Csf3	Csf3r	endocardial cell	leukocyte	0
+Cdh1	Igf1r	endocardial cell	leukocyte	0
+Wnt2	Fzd9	endocardial cell	leukocyte	0
+Wnt1	Fzd6	endocardial cell	leukocyte	0
+Lipc	Ldlr	endocardial cell	leukocyte	0
+Omg	Rtn4rl1	endocardial cell	leukocyte	0
+Gdf11	Acvr1b	endocardial cell	leukocyte	0
+Cd40lg	Cd40	endocardial cell	leukocyte	0
+Ltb	Tnfrsf1a	endocardial cell	leukocyte	0
+App	Tspan12	endocardial cell	leukocyte	0
+Gdf5	Bmpr2	endocardial cell	leukocyte	0
+Gnas	Lhcgr	endocardial cell	leukocyte	0
+Adam12	Itgb1	endocardial cell	leukocyte	0
+Ccl24	Ackr2	endocardial cell	leukocyte	0
+Tnc	Itgb6	endocardial cell	leukocyte	0
+Adam2	Itga6	endocardial cell	leukocyte	0
+Amh	Acvr1	endocardial cell	leukocyte	0
+F9	Lrp1	endocardial cell	leukocyte	0
+Fgf5	Fgfr3	endocardial cell	leukocyte	0
+Btla	Tnfrsf14	endocardial cell	leukocyte	0
+Il16	Kcnd2	endocardial cell	leukocyte	0
+Bdnf	Sorcs2	endocardial cell	leukocyte	0
+Fgf9	Fgfr2	endocardial cell	leukocyte	0
+Bmp3	Acvr2b	endocardial cell	leukocyte	0
+Col2a1	Itga1	endocardial cell	leukocyte	0
+Gdf2	Bmpr2	endocardial cell	leukocyte	0
+Bmp15	Bmpr1a	endocardial cell	leukocyte	0
+Wnt10a	Fzd10	endocardial cell	leukocyte	0
+Ppbp	Cxcr2	endocardial cell	smooth muscle cell	0
+Ltb	Ltbr	endocardial cell	smooth muscle cell	0
+Csf3	Csf3r	endocardial cell	smooth muscle cell	0
+Cdh1	Igf1r	endocardial cell	smooth muscle cell	0
+Wnt1	Fzd6	endocardial cell	smooth muscle cell	0
+Lipc	Ldlr	endocardial cell	smooth muscle cell	0
+Omg	Rtn4rl1	endocardial cell	smooth muscle cell	0
+Gdf11	Acvr1b	endocardial cell	smooth muscle cell	0
+Cd40lg	Cd40	endocardial cell	smooth muscle cell	0
+Ltb	Tnfrsf1a	endocardial cell	smooth muscle cell	0
+Gdf5	Bmpr2	endocardial cell	smooth muscle cell	0
+Sema5a	Plxnb3	endocardial cell	smooth muscle cell	0
+Adam12	Itgb1	endocardial cell	smooth muscle cell	0
+Calm1	Kcnq1	endocardial cell	smooth muscle cell	0
+Icam1	Itgal	endocardial cell	smooth muscle cell	0
+Tnc	Itgb6	endocardial cell	smooth muscle cell	0
+Tnfsf13b	Tnfrsf17	endocardial cell	smooth muscle cell	0
+Adam2	Itga6	endocardial cell	smooth muscle cell	0
+Amh	Acvr1	endocardial cell	smooth muscle cell	0
+Cxcl9	Cxcr3	endocardial cell	smooth muscle cell	0
+F9	Lrp1	endocardial cell	smooth muscle cell	0
+Fgf5	Fgfr3	endocardial cell	smooth muscle cell	0
+Ccl22	Dpp4	endocardial cell	smooth muscle cell	0
+Btla	Tnfrsf14	endocardial cell	smooth muscle cell	0
+Ccl9	Ccr1	endocardial cell	smooth muscle cell	0
+Hsp90b1	Tlr9	endocardial cell	smooth muscle cell	0
+Bdnf	Sorcs2	endocardial cell	smooth muscle cell	0
+Fgf9	Fgfr2	endocardial cell	smooth muscle cell	0
+Bmp3	Acvr2b	endocardial cell	smooth muscle cell	0
+Col2a1	Itga1	endocardial cell	smooth muscle cell	0
+Gdf2	Bmpr2	endocardial cell	smooth muscle cell	0
+Bmp15	Bmpr1a	endocardial cell	smooth muscle cell	0
+Wnt10a	Fzd10	endocardial cell	smooth muscle cell	0
+Ppbp	Cxcr2	fibroblast	endocardial cell	0
+Cdh1	Igf1r	fibroblast	endocardial cell	0
+Izumo1	Cd9	fibroblast	endocardial cell	0
+Lipc	Ldlr	fibroblast	endocardial cell	0
+Cd40lg	Cd40	fibroblast	endocardial cell	0
+Dll4	Notch3	fibroblast	endocardial cell	0
+Jag1	Notch3	fibroblast	endocardial cell	0
+Nrg2	Erbb3	fibroblast	endocardial cell	0
+Gnas	Lhcgr	fibroblast	endocardial cell	0
+Icam1	Itgal	fibroblast	endocardial cell	0
+Cxcl2	Cxcr2	fibroblast	endocardial cell	0
+Cxcl1	Cxcr2	fibroblast	endocardial cell	0
+Tnc	Itgb6	fibroblast	endocardial cell	0
+Tnfsf13b	Tnfrsf17	fibroblast	endocardial cell	0
+Efna5	Ephb2	fibroblast	endocardial cell	0
+Adam2	Itga6	fibroblast	endocardial cell	0
+Nts	Ngfr	fibroblast	endocardial cell	0
+Cxcl9	Cxcr3	fibroblast	endocardial cell	0
+Fgf5	Fgfr3	fibroblast	endocardial cell	0
+Ccl22	Dpp4	fibroblast	endocardial cell	0
+Hsp90b1	Tlr9	fibroblast	endocardial cell	0
+Tnfsf13b	Tnfrsf13c	fibroblast	endocardial cell	0
+Col2a1	Itga1	fibroblast	endocardial cell	0
+Cdh1	Igf1r	fibroblast	fibroblast	0
+Izumo1	Cd9	fibroblast	fibroblast	0
+Lipc	Ldlr	fibroblast	fibroblast	0
+Cd40lg	Cd40	fibroblast	fibroblast	0
+Gnas	Lhcgr	fibroblast	fibroblast	0
+Sema5a	Plxnb3	fibroblast	fibroblast	0
+Calm1	Kcnq1	fibroblast	fibroblast	0
+Adam2	Itga6	fibroblast	fibroblast	0
+Fgf5	Fgfr3	fibroblast	fibroblast	0
+Il16	Kcnd2	fibroblast	fibroblast	0
+Hsp90b1	Tlr9	fibroblast	fibroblast	0
+Tnfsf13b	Tnfrsf13c	fibroblast	fibroblast	0
+Col2a1	Itga1	fibroblast	fibroblast	0
+Cdh1	Igf1r	fibroblast	leukocyte	0
+Izumo1	Cd9	fibroblast	leukocyte	0
+Wnt2	Fzd9	fibroblast	leukocyte	0
+Lipc	Ldlr	fibroblast	leukocyte	0
+Cd40lg	Cd40	fibroblast	leukocyte	0
+App	Tspan12	fibroblast	leukocyte	0
+Gnas	Lhcgr	fibroblast	leukocyte	0
+Ccl24	Ackr2	fibroblast	leukocyte	0
+Tnc	Itgb6	fibroblast	leukocyte	0
+Adam2	Itga6	fibroblast	leukocyte	0
+Fgf5	Fgfr3	fibroblast	leukocyte	0
+Il16	Kcnd2	fibroblast	leukocyte	0
+Fgf9	Fgfr2	fibroblast	leukocyte	0
+Col2a1	Itga1	fibroblast	leukocyte	0
+Wnt10a	Fzd10	fibroblast	leukocyte	0
+Csf3	Csf3r	fibroblast	smooth muscle cell	0
+Cdh1	Igf1r	fibroblast	smooth muscle cell	0
+Izumo1	Cd9	fibroblast	smooth muscle cell	0
+Lipc	Ldlr	fibroblast	smooth muscle cell	0
+Cd40lg	Cd40	fibroblast	smooth muscle cell	0
+Sema5a	Plxnb3	fibroblast	smooth muscle cell	0
+Calm1	Kcnq1	fibroblast	smooth muscle cell	0
+Icam1	Itgal	fibroblast	smooth muscle cell	0
+Tnc	Itgb6	fibroblast	smooth muscle cell	0
+Tnfsf13b	Tnfrsf17	fibroblast	smooth muscle cell	0
+Adam2	Itga6	fibroblast	smooth muscle cell	0
+Cxcl9	Cxcr3	fibroblast	smooth muscle cell	0
+Fgf5	Fgfr3	fibroblast	smooth muscle cell	0
+Ccl22	Dpp4	fibroblast	smooth muscle cell	0
+Ccl9	Ccr1	fibroblast	smooth muscle cell	0
+Hsp90b1	Tlr9	fibroblast	smooth muscle cell	0
+Col2a1	Itga1	fibroblast	smooth muscle cell	0
+Ppbp	Cxcr2	leukocyte	endocardial cell	0
+Has2	Cd44	leukocyte	endocardial cell	0
+Izumo1	Cd9	leukocyte	endocardial cell	0
+Wnt1	Fzd6	leukocyte	endocardial cell	0
+Dll4	Notch3	leukocyte	endocardial cell	0
+Jag1	Notch3	leukocyte	endocardial cell	0
+Nrg2	Erbb3	leukocyte	endocardial cell	0
+Cthrc1	Fzd6	leukocyte	endocardial cell	0
+Gdf5	Bmpr2	leukocyte	endocardial cell	0
+Gnas	Lhcgr	leukocyte	endocardial cell	0
+Icam1	Itgal	leukocyte	endocardial cell	0
+Cxcl2	Cxcr2	leukocyte	endocardial cell	0
+Cxcl1	Cxcr2	leukocyte	endocardial cell	0
+Tnc	Itgb6	leukocyte	endocardial cell	0
+Tnfsf13b	Tnfrsf17	leukocyte	endocardial cell	0
+Efna5	Ephb2	leukocyte	endocardial cell	0
+Wnt2b	Fzd4	leukocyte	endocardial cell	0
+Nts	Ngfr	leukocyte	endocardial cell	0
+Cxcl9	Cxcr3	leukocyte	endocardial cell	0
+Fgf5	Fgfr3	leukocyte	endocardial cell	0
+Ccl22	Dpp4	leukocyte	endocardial cell	0
+Hsp90b1	Tlr9	leukocyte	endocardial cell	0
+Tnfsf13b	Tnfrsf13c	leukocyte	endocardial cell	0
+Col2a1	Itga1	leukocyte	endocardial cell	0
+Gdf2	Bmpr2	leukocyte	endocardial cell	0
+Bmp15	Bmpr1a	leukocyte	endocardial cell	0
+Has2	Cd44	leukocyte	fibroblast	0
+Izumo1	Cd9	leukocyte	fibroblast	0
+Wnt1	Fzd6	leukocyte	fibroblast	0
+Cthrc1	Fzd6	leukocyte	fibroblast	0
+Gdf5	Bmpr2	leukocyte	fibroblast	0
+Gnas	Lhcgr	leukocyte	fibroblast	0
+Sema5a	Plxnb3	leukocyte	fibroblast	0
+Calm1	Kcnq1	leukocyte	fibroblast	0
+Wnt2b	Fzd4	leukocyte	fibroblast	0
+Nts	Ngfr	leukocyte	fibroblast	0
+Fgf5	Fgfr3	leukocyte	fibroblast	0
+Il16	Kcnd2	leukocyte	fibroblast	0
+Hsp90b1	Tlr9	leukocyte	fibroblast	0
+Tnfsf13b	Tnfrsf13c	leukocyte	fibroblast	0
+Col2a1	Itga1	leukocyte	fibroblast	0
+Gdf2	Bmpr2	leukocyte	fibroblast	0
+Bmp15	Bmpr1a	leukocyte	fibroblast	0
+Has2	Cd44	leukocyte	leukocyte	0
+Izumo1	Cd9	leukocyte	leukocyte	0
+Wnt2	Fzd9	leukocyte	leukocyte	0
+Wnt1	Fzd6	leukocyte	leukocyte	0
+App	Tspan12	leukocyte	leukocyte	0
+Cthrc1	Fzd6	leukocyte	leukocyte	0
+Gdf5	Bmpr2	leukocyte	leukocyte	0
+Gnas	Lhcgr	leukocyte	leukocyte	0
+Ccl24	Ackr2	leukocyte	leukocyte	0
+Tnc	Itgb6	leukocyte	leukocyte	0
+Wnt2b	Fzd4	leukocyte	leukocyte	0
+Nts	Ngfr	leukocyte	leukocyte	0
+Fgf5	Fgfr3	leukocyte	leukocyte	0
+Il16	Kcnd2	leukocyte	leukocyte	0
+Fgf9	Fgfr2	leukocyte	leukocyte	0
+Col2a1	Itga1	leukocyte	leukocyte	0
+Gdf2	Bmpr2	leukocyte	leukocyte	0
+Bmp15	Bmpr1a	leukocyte	leukocyte	0
+Wnt10a	Fzd10	leukocyte	leukocyte	0
+Has2	Cd44	leukocyte	smooth muscle cell	0
+Csf3	Csf3r	leukocyte	smooth muscle cell	0
+Izumo1	Cd9	leukocyte	smooth muscle cell	0
+Wnt1	Fzd6	leukocyte	smooth muscle cell	0
+Cthrc1	Fzd6	leukocyte	smooth muscle cell	0
+Gdf5	Bmpr2	leukocyte	smooth muscle cell	0
+Sema5a	Plxnb3	leukocyte	smooth muscle cell	0
+Calm1	Kcnq1	leukocyte	smooth muscle cell	0
+Icam1	Itgal	leukocyte	smooth muscle cell	0
+Tnc	Itgb6	leukocyte	smooth muscle cell	0
+Tnfsf13b	Tnfrsf17	leukocyte	smooth muscle cell	0
+Wnt2b	Fzd4	leukocyte	smooth muscle cell	0
+Nts	Ngfr	leukocyte	smooth muscle cell	0
+Cxcl9	Cxcr3	leukocyte	smooth muscle cell	0
+Fgf5	Fgfr3	leukocyte	smooth muscle cell	0
+Ccl22	Dpp4	leukocyte	smooth muscle cell	0
+Ccl9	Ccr1	leukocyte	smooth muscle cell	0
+Hsp90b1	Tlr9	leukocyte	smooth muscle cell	0
+Col2a1	Itga1	leukocyte	smooth muscle cell	0
+Gdf2	Bmpr2	leukocyte	smooth muscle cell	0
+Bmp15	Bmpr1a	leukocyte	smooth muscle cell	0
+Ppbp	Cxcr2	smooth muscle cell	endocardial cell	0
+Has2	Cd44	smooth muscle cell	endocardial cell	0
+Csf3	Csf3r	smooth muscle cell	endocardial cell	0
+Cdh1	Igf1r	smooth muscle cell	endocardial cell	0
+Wnt2	Fzd9	smooth muscle cell	endocardial cell	0
+Wnt1	Fzd6	smooth muscle cell	endocardial cell	0
+Cd40lg	Cd40	smooth muscle cell	endocardial cell	0
+Dll4	Notch3	smooth muscle cell	endocardial cell	0
+Jag1	Notch3	smooth muscle cell	endocardial cell	0
+Nrg2	Erbb3	smooth muscle cell	endocardial cell	0
+Gnas	Lhcgr	smooth muscle cell	endocardial cell	0
+Icam1	Itgal	smooth muscle cell	endocardial cell	0
+Cxcl2	Cxcr2	smooth muscle cell	endocardial cell	0
+Cxcl1	Cxcr2	smooth muscle cell	endocardial cell	0
+Tnc	Itgb6	smooth muscle cell	endocardial cell	0
+Tnfsf13b	Tnfrsf17	smooth muscle cell	endocardial cell	0
+Efna5	Ephb2	smooth muscle cell	endocardial cell	0
+Nts	Ngfr	smooth muscle cell	endocardial cell	0
+Ebi3	Il6st	smooth muscle cell	endocardial cell	0
+Cxcl9	Cxcr3	smooth muscle cell	endocardial cell	0
+F9	Lrp1	smooth muscle cell	endocardial cell	0
+Ccl22	Dpp4	smooth muscle cell	endocardial cell	0
+Hsp90b1	Tlr9	smooth muscle cell	endocardial cell	0
+Tnfsf13b	Tnfrsf13c	smooth muscle cell	endocardial cell	0
+Il1rn	Il1r1	smooth muscle cell	endocardial cell	0
+Ppbp	Cxcr2	smooth muscle cell	fibroblast	0
+Has2	Cd44	smooth muscle cell	fibroblast	0
+Csf3	Csf3r	smooth muscle cell	fibroblast	0
+Cdh1	Igf1r	smooth muscle cell	fibroblast	0
+Wnt2	Fzd9	smooth muscle cell	fibroblast	0
+Wnt1	Fzd6	smooth muscle cell	fibroblast	0
+Cd40lg	Cd40	smooth muscle cell	fibroblast	0
+Gnas	Lhcgr	smooth muscle cell	fibroblast	0
+Sema5a	Plxnb3	smooth muscle cell	fibroblast	0
+Calm1	Kcnq1	smooth muscle cell	fibroblast	0
+Ebi3	Il6st	smooth muscle cell	fibroblast	0
+Cxcl9	Cxcr3	smooth muscle cell	fibroblast	0
+F9	Lrp1	smooth muscle cell	fibroblast	0
+Ccl22	Dpp4	smooth muscle cell	fibroblast	0
+Il16	Kcnd2	smooth muscle cell	fibroblast	0
+Hsp90b1	Tlr9	smooth muscle cell	fibroblast	0
+Tnfsf13b	Tnfrsf13c	smooth muscle cell	fibroblast	0
+Il1rn	Il1r1	smooth muscle cell	fibroblast	0
+Ppbp	Cxcr2	smooth muscle cell	leukocyte	0
+Has2	Cd44	smooth muscle cell	leukocyte	0
+Csf3	Csf3r	smooth muscle cell	leukocyte	0
+Cdh1	Igf1r	smooth muscle cell	leukocyte	0
+Wnt2	Fzd9	smooth muscle cell	leukocyte	0
+Wnt1	Fzd6	smooth muscle cell	leukocyte	0
+Cd40lg	Cd40	smooth muscle cell	leukocyte	0
+App	Tspan12	smooth muscle cell	leukocyte	0
+Gnas	Lhcgr	smooth muscle cell	leukocyte	0
+Ccl24	Ackr2	smooth muscle cell	leukocyte	0
+Tnc	Itgb6	smooth muscle cell	leukocyte	0
+Ebi3	Il6st	smooth muscle cell	leukocyte	0
+Cxcl9	Cxcr3	smooth muscle cell	leukocyte	0
+F9	Lrp1	smooth muscle cell	leukocyte	0
+Ccl22	Dpp4	smooth muscle cell	leukocyte	0
+Il16	Kcnd2	smooth muscle cell	leukocyte	0
+Fgf9	Fgfr2	smooth muscle cell	leukocyte	0
+Il1rn	Il1r1	smooth muscle cell	leukocyte	0
+Wnt10a	Fzd10	smooth muscle cell	leukocyte	0
+Ppbp	Cxcr2	smooth muscle cell	smooth muscle cell	0
+Has2	Cd44	smooth muscle cell	smooth muscle cell	0
+Csf3	Csf3r	smooth muscle cell	smooth muscle cell	0
+Cdh1	Igf1r	smooth muscle cell	smooth muscle cell	0
+Wnt2	Fzd9	smooth muscle cell	smooth muscle cell	0
+Wnt1	Fzd6	smooth muscle cell	smooth muscle cell	0
+Cd40lg	Cd40	smooth muscle cell	smooth muscle cell	0
+Sema5a	Plxnb3	smooth muscle cell	smooth muscle cell	0
+Calm1	Kcnq1	smooth muscle cell	smooth muscle cell	0
+Icam1	Itgal	smooth muscle cell	smooth muscle cell	0
+Tnc	Itgb6	smooth muscle cell	smooth muscle cell	0
+Tnfsf13b	Tnfrsf17	smooth muscle cell	smooth muscle cell	0
+Ebi3	Il6st	smooth muscle cell	smooth muscle cell	0
+Cxcl9	Cxcr3	smooth muscle cell	smooth muscle cell	0
+F9	Lrp1	smooth muscle cell	smooth muscle cell	0
+Ccl22	Dpp4	smooth muscle cell	smooth muscle cell	0
+Ccl9	Ccr1	smooth muscle cell	smooth muscle cell	0
+Hsp90b1	Tlr9	smooth muscle cell	smooth muscle cell	0
+Il1rn	Il1r1	smooth muscle cell	smooth muscle cell	0
