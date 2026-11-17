@@ -14,6 +14,11 @@
 
 process_sce <- function(sce, n_HVG = 1000, percVar = 70) {
     
+    ## Attach SingleCellExperiment for counts(), logcounts(), reducedDim(),
+    ## metadata() and rowData(), so the function also works in a clean session
+
+    library(SingleCellExperiment)
+
     ## Filter out genes with zero expression across all cells
     
     allzero_genes <- rowSums(counts(sce)) == 0
@@ -39,7 +44,8 @@ process_sce <- function(sce, n_HVG = 1000, percVar = 70) {
     
     ## Initial PCA on highly variable genes
     
-    n_PCs_initial <- min(100, nrow(sce), ncol(sce) - 1)
+    # At most 100 PCs, and no more than the number of HVGs or of cells - 1
+    n_PCs_initial <- min(100, length(top_HVGs), ncol(sce) - 1)
     
     sce <- scater::runPCA(
         sce,
@@ -119,6 +125,11 @@ process_sce <- function(sce, n_HVG = 1000, percVar = 70) {
 
 annotation <- function(sce, ref, pdffilename) {
     
+    ## Attach SingleCellExperiment for counts(), logcounts(), reducedDim(),
+    ## metadata() and rowData(), so the function also works in a clean session
+
+    library(SingleCellExperiment)
+
     ## Cell clustering with Louvain algorithm
     
     SNN_graph <- scran::buildSNNGraph(
@@ -199,6 +210,11 @@ annotation <- function(sce, ref, pdffilename) {
 
 CCCanalysis <- function(sce, LRdb) {
     
+    ## Attach SingleCellExperiment for counts(), logcounts(), reducedDim(),
+    ## metadata() and rowData(), so the function also works in a clean session
+
+    library(SingleCellExperiment)
+
     ## Retrieve annotated cell types
     
     cell_types <- levels(sce$cell_annotation)
@@ -215,9 +231,10 @@ CCCanalysis <- function(sce, LRdb) {
     colnames(cell_type_pairs) <- c("sender", "receiver")
     
     ## Keep ligand-receptor pairs whose genes are present in the dataset
+    ## (checked against the row names, which are used to index logcounts below)
     
-    ligand_present <- LRdb$ligand %in% rowData(sce)$SYMBOL
-    receptor_present <- LRdb$receptor %in% rowData(sce)$SYMBOL
+    ligand_present <- LRdb$ligand %in% rownames(sce)
+    receptor_present <- LRdb$receptor %in% rownames(sce)
     
     LRdb <- LRdb[ligand_present & receptor_present, ]
     
