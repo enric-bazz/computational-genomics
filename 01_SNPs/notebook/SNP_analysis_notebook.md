@@ -99,7 +99,7 @@ c(tested = G,
 ```
 
     ##             tested           p < 0.05 expected by chance           q < 0.05 
-    ##               2718                170                136                 51
+    ##               2718                171                136                 51
 
 ``` r
 par(mfrow = c(1, 2))
@@ -114,7 +114,7 @@ abline(0, 1, col = "red")
 
 ![](SNP_analysis_notebook_files/figure-gfm/pvals-1.png)<!-- -->
 
-- At p \< 0.05, 170 SNPs are selected, but about 136 would be selected
+- At p \< 0.05, 171 SNPs are selected, but about 136 would be selected
   even if no SNP were associated. Most of the “hits” at this threshold
   are expected false positives.
 - The histogram is flat with a spike near 0, and the QQ plot follows the
@@ -162,21 +162,13 @@ empty_class <- (res[, "AA_ctrl"] + res[, "AA_case"] == 0) |
                (res[, "Aa_ctrl"] + res[, "Aa_case"] == 0) |
                (res[, "aa_ctrl"] + res[, "aa_case"] == 0)
 
-c(BH_q_equal = isTRUE(all.equal(unname(res[, "qval"]), unname(p.adjust(res[, "pval"], "BH")))),
-  MAF_equal = isTRUE(all.equal(MAF, rowSums(SNPdata) / (2 * ncol(SNPdata)))),
-  association_p_equal_all = isTRUE(all.equal(unname(res[, "pval"]), unname(chisq_p))),
-  association_p_equal_without_empty_genotype =
-    isTRUE(all.equal(unname(res[!empty_class, "pval"]), unname(chisq_p[!empty_class]))))
+c(association_p_equal = isTRUE(all.equal(unname(res[, "pval"]), unname(chisq_p))),
+  BH_q_equal = isTRUE(all.equal(unname(res[, "qval"]), unname(p.adjust(res[, "pval"], "BH")))),
+  MAF_equal = isTRUE(all.equal(MAF, rowSums(SNPdata) / (2 * ncol(SNPdata)))))
 ```
 
-    ##                                 BH_q_equal 
-    ##                                       TRUE 
-    ##                                  MAF_equal 
-    ##                                       TRUE 
-    ##                    association_p_equal_all 
-    ##                                      FALSE 
-    ## association_p_equal_without_empty_genotype 
-    ##                                       TRUE
+    ## association_p_equal          BH_q_equal           MAF_equal 
+    ##                TRUE                TRUE                TRUE
 
 ``` r
 sum(empty_class)
@@ -184,13 +176,13 @@ sum(empty_class)
 
     ## [1] 57
 
-- The Benjamini–Hochberg q-values match `p.adjust()`, and the loop-based
-  MAF matches the one-line vectorised version
+- All three agree with their reference implementations. The loop-based
+  MAF also matches the one-line vectorised version
   `rowSums(SNPdata) / (2 * ncol(SNPdata))`.
-- The association p-values match `chisq.test()` for all SNPs except the
-  57 where one genotype (always `aa`) is absent in both groups. There
-  the table is effectively 2 × 2 and has 1 degree of freedom, while the
-  function always uses 2, so its p-values for these SNPs are
-  conservative. In this dataset the effect is negligible: with the
-  correct degrees of freedom the number of SNPs at q \< 0.05 stays the
-  same.
+- For 57 SNPs one genotype (always `aa`) is absent in both groups, so
+  the table is effectively 2 × 2 with 1 degree of freedom instead of 2.
+  The function sets the degrees of freedom from the genotypes actually
+  observed, which is also what `chisq.test()` does once the empty column
+  is dropped. Using 2 for every SNP would make these p-values
+  conservative, although in this dataset the number of SNPs at q \< 0.05
+  would not change.

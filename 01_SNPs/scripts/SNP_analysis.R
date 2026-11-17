@@ -245,10 +245,21 @@ SNP_association_test <-function(filepath,indCTRL,MAFth=0.01,HWEalpha=0.01){
     
     results$chi_squared_observed <- chi_squared #store the observed chi-square statistic for each SNP
     
-    #p_value computation for the chi-square association test. df=2 because the
-    #contingency table has (3 genotypes - 1) x (2 groups - 1) = 2 degrees of freedom;
-    #lower.tail=FALSE gives P(X > chi-square)
-    p_values <- pchisq(results$chi_squared_observed, df=2, lower.tail=FALSE)
+    #Degrees of freedom of the contingency table: (genotypes - 1) x (2 groups - 1).
+    #Usually 3 genotypes are observed and df=2, but a genotype absent in both
+    #groups (typically aa for a rare allele) leaves an empty column, so the table
+    #is effectively 2 x 2 and df=1
+    genotype_totals <- cbind(results$AA_ctrl + results$AA_case,
+                             results$Aa_ctrl + results$Aa_case,
+                             results$aa_ctrl + results$aa_case)
+    df_assoc <- rowSums(genotype_totals > 0) - 1
+    
+    #p_value computation for the chi-square association test; lower.tail=FALSE
+    #gives P(X > chi-square). With a single observed genotype (df=0) there is
+    #nothing to test and the p-value is set to 1
+    p_values <- ifelse(df_assoc > 0,
+                       pchisq(results$chi_squared_observed, df=pmax(df_assoc, 1), lower.tail=FALSE),
+                       1)
     results$pval <- p_values #store the p-value for each SNP
     
     #q_value computation with Benjamini-Hochberg method (step-down procedure)
