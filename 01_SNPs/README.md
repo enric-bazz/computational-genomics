@@ -79,7 +79,7 @@ The function:
 5.  calculates multiple-testing-adjusted q-values using the Benjamini–Hochberg procedure;
 6.  returns the genotype counts and statistical results for the SNPs passing the filters.
 
-The returned matrix contains the following columns:
+The returned numeric matrix contains the following columns:
 
 ``` text
 AA_ctrl | Aa_ctrl | aa_ctrl | AA_case | Aa_case | aa_case | pval | qval
@@ -119,6 +119,11 @@ run_snp_analysis(input_dir = "path/to/data", output_dir = "path/to/results")
 ```
 
 Both directories are optional and default to `01_SNPs/data` and `01_SNPs/output`; `input_dir` must contain `SNPdata.txt`. The wrapper also accepts `data_file`, `indCTRL`, `MAFth`, and `HWEalpha` for custom runs.
+
+## Assumptions
+
+- Following the instructions, the MAF is always the frequency of allele `a` (genotype `aa` taken as the rarer one), even where the observed `aa` frequency is higher; one SNP in the provided dataset has `q > 0.5`.
+- The MAF is computed on all subjects, the HWE test on controls only; cases are all columns not in `indCTRL`.
 
 ## Implementation notes
 
