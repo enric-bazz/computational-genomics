@@ -83,12 +83,12 @@ run_snp_analysis <- function(input_dir = DEFAULT_DATA_DIR,
   #Quick summary of the results
   cat("\n--- Results summary ---\n")
   cat("SNPs passing MAF/HWE filters:", nrow(result), "\n")
-  cat("SNPs significant at qval < 0.05:", sum(result$qval < 0.05), "\n")
-  cat("SNPs significant at qval < 0.01:", sum(result$qval < 0.01), "\n")
-  cat("p-value range: [", signif(min(result$pval), 3), ",", signif(max(result$pval), 3), "]\n")
+  cat("SNPs significant at qval < 0.05:", sum(result[, "qval"] < 0.05), "\n")
+  cat("SNPs significant at qval < 0.01:", sum(result[, "qval"] < 0.01), "\n")
+  cat("p-value range: [", signif(min(result[, "pval"]), 3), ",", signif(max(result[, "pval"]), 3), "]\n")
   
   cat("\nTop 5 SNPs by association p-value:\n")
-  print(head(result[order(result$pval), ], 5))
+  print(head(result[order(result[, "pval"]), ], 5))
   
   cat("\nWrote:\n -", results_path, "\n -", file.path(output_dir, "test_boxplot.pdf"), "\n")
   

@@ -112,10 +112,14 @@ HWE_test <- function (SNPdata, pdf_file_name){
         expected_count_allele_1 <- (2*p*q)*total_subjects   #Aa
         expected_count_allele_2 <- (q^2)*total_subjects     #aa
         
-        #Chi-square statistic comparing observed vs expected genotype counts
-        observed_values <- ((allele_0-expected_count_allele_0)^2/expected_count_allele_0) +
-            ((allele_1-expected_count_allele_1)^2/expected_count_allele_1) +
-            ((allele_2-expected_count_allele_2)^2/expected_count_allele_2)
+        #Chi-square statistic comparing observed vs expected genotype counts.
+        #A genotype with expected count 0 (only possible for a monomorphic SNP,
+        #i.e. p=0 or q=0) also has observed count 0, so it contributes 0 to the
+        #statistic instead of the undefined 0/0
+        chi_sq_term <- function(obs, exp) ifelse(exp == 0, 0, (obs-exp)^2/exp)
+        observed_values <- chi_sq_term(allele_0, expected_count_allele_0) +
+            chi_sq_term(allele_1, expected_count_allele_1) +
+            chi_sq_term(allele_2, expected_count_allele_2)
         
         #Compute p_value. df=1 because one parameter (allele frequency) is
         #estimated from the data; lower.tail=FALSE gives P(X > chi-square)
@@ -168,14 +172,16 @@ SNP_association_test <-function(filepath,indCTRL,MAFth=0.01,HWEalpha=0.01){
     #Compute MAF (on all subjects) and HWE p_values (on controls only) using the
     #previously defined functions
     MAF_values <- compute_MAF(SNPdata)
-    HWE_p_values <- HWE_test(SNPdata[,indCTRL],'test_boxplot.pdf')
+    #drop=FALSE keeps a matrix-like object (with SNP row names) even when a
+    #single control column is selected
+    HWE_p_values <- HWE_test(SNPdata[,indCTRL,drop=FALSE],'test_boxplot.pdf')
     
     #Filter out SNPs with (MAF < MAFth) OR (HWE p-value < HWEalpha):
     #keep only SNPs that pass BOTH thresholds
     filtered_SNPs <- which(MAF_values >= MAFth & HWE_p_values >= HWEalpha)
     
     #Count genotypes AA, Aa, aa in control group
-    genotype_count_ctrl <- apply(SNPdata[,indCTRL],1,function(row){
+    genotype_count_ctrl <- apply(SNPdata[,indCTRL,drop=FALSE],1,function(row){
         AA <- sum(row == 0, na.rm = TRUE)
         Aa <- sum(row == 1, na.rm = TRUE)
         aa <- sum(row == 2, na.rm = TRUE)
@@ -183,10 +189,10 @@ SNP_association_test <-function(filepath,indCTRL,MAFth=0.01,HWEalpha=0.01){
     })
     
     #Count genotypes AA, Aa, aa in case group
-    genotype_count_cases <- apply(SNPdata[,-indCTRL],1,function(row){
-        AA <- sum(row == 0)
-        Aa <- sum(row == 1)
-        aa <- sum(row == 2)
+    genotype_count_cases <- apply(SNPdata[,-indCTRL,drop=FALSE],1,function(row){
+        AA <- sum(row == 0, na.rm = TRUE)
+        Aa <- sum(row == 1, na.rm = TRUE)
+        aa <- sum(row == 2, na.rm = TRUE)
         return(c(AA,Aa,aa))
     })
     
@@ -262,8 +268,10 @@ SNP_association_test <-function(filepath,indCTRL,MAFth=0.01,HWEalpha=0.01){
     q_values[p_order] <- q_sorted
     results$qval <- q_values
     
-    #Final result matrix, with only the columns requested
-    final_results <- results[, c('AA_ctrl','Aa_ctrl','aa_ctrl','AA_case','Aa_case','aa_case','pval','qval')]
+    #Final result matrix, with only the columns requested. The instructions ask
+    #for a matrix: as.matrix() keeps the SNP IDs as row names and gives a numeric
+    #matrix since all columns are numeric
+    final_results <- as.matrix(results[, c('AA_ctrl','Aa_ctrl','aa_ctrl','AA_case','Aa_case','aa_case','pval','qval')])
     
     #Return final results
     return(final_results)
