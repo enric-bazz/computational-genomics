@@ -1,0 +1,5 @@
+statistic	value
+SelectedGenes	2501
+FalsePositives	717
+FalseNegatives	1803
+FalseDiscoveryRate	0.286685325869652
