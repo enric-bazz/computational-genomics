@@ -42,3 +42,9 @@ The workflow consists of:
 - ligand–receptor-based cell–cell communication analysis.
 
 A reference `SingleCellExperiment` is used for cell-type annotation, while a ligand–receptor database provides the interaction pairs evaluated in the final analysis.
+
+## Data and requirements
+
+Input data and instructions were distributed through the course website and are not tracked (`data/` is in `.gitignore`); each folder's README lists the files expected in its `data/` folder.
+
+The SNP analysis uses base R. The other two analyses need `edgeR`, `SingleCellExperiment`, `scran`, `scuttle`, `scater`, `SingleR` (Bioconductor) and `igraph`, `gtools`, `ggplot2` (CRAN).
