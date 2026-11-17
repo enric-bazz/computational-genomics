@@ -22,11 +22,11 @@ The runner script also performs a separate t-SNE perplexity comparison using val
 ├── scripts/
 │   ├── scRNA_analysis.R
 │   └── test_scRNA_analysis.R
-├── data/
+├── data/                     (untracked)
 │   ├── sce_count.RData
 │   ├── ref.RData
 │   └── LRdb.RData
-└── outputs/
+└── output/
     ├── tSNE_annotation.pdf
     ├── tSNE_perplexity_comparison.pdf
     └── CCC_results.txt
@@ -87,21 +87,23 @@ ligand | receptor | sender | receiver | LRscore
 
 and is sorted in descending order of `LRscore`.
 
+## Assumptions
+
+- `sce` has gene symbols as row names, matching the gene names in `LRdb`.
+- The initial PCA is capped at 100 components; with the provided data 70% of the variance requires 91 PCs, so a much higher `percVar` would stop the function.
+- The runner fixes the random seed before `process_sce()`, since normalization clustering and t-SNE are stochastic.
+
 ## Testing and Reproducing
 
-The analysis is implemented in `scripts/scRNA_analysis.R` and executed through `scripts/test_scRNA_analysis.R`. The runner accepts the input and output directories as command-line arguments.
+`scripts/test_scRNA_analysis.R` provides a `run_scRNA_analysis()` wrapper that runs the three functions and the t-SNE perplexity comparison, and saves the results to the output directory. The required input files are `sce_count.RData`, `ref.RData` and `LRdb.RData`.
 
-The required input files are:
+From any directory:
 
-- `data/sce_count.RData`
-- `data/ref.RData`
-- `data/LRdb.RData`
-
-Run the complete analysis from the `03_single_cell_RNAseq/` directory with:
-
-``` text
-Rscript scripts/test_scRNA_analysis.R data outputs
+``` sh
+Rscript 03_single_cell_RNAseq/scripts/test_scRNA_analysis.R [input_dir] [output_dir]
 ```
+
+Both directories are optional and default to `03_single_cell_RNAseq/data` and `03_single_cell_RNAseq/output`. The script can also be sourced in R and run with `run_scRNA_analysis()`.
 
 ## t-SNE perplexity analysis
 
