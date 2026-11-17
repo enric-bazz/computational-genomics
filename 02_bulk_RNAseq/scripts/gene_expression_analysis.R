@@ -92,9 +92,22 @@ MvAplot <- function(exprData, pdffilename, pcolor = "black", lcolor = "red") {
 
 TMMnorm <- function(exprData, annot, Mtrim = 0.02, Atrim = c(0, 8)) {
 
-    # Extract gene lengths and sequencing depths
-    genes_lengths <- annot[,3]
-    sequencing_depth <- apply(exprData,2,sum)
+    # Extract gene lengths, matching annotation rows to the genes of exprData by
+    # name rather than by position. Gene names are taken from the row names of
+    # annot (file read with row.names = "Symbol") or, if those do not match,
+    # from its "Symbol" column (file read without row names)
+    if (all(rownames(exprData) %in% rownames(annot))) {
+        annot_genes <- rownames(annot)
+    } else {
+        annot_genes <- annot$Symbol
+    }
+    genes_lengths <- annot$Length[match(rownames(exprData), annot_genes)]
+    if (anyNA(genes_lengths)) {
+        stop("Gene length not available in annot for some genes of exprData")
+    }
+
+    # Sequencing depth of each sample
+    sequencing_depth <- apply(exprData, 2, sum)
 
     # Normalize counts by sequencing depth and express them as counts per million
     data.scaled <- apply(exprData, 1, function(row) {row.scaled <- row/sequencing_depth
@@ -182,9 +195,16 @@ TMMnorm <- function(exprData, annot, Mtrim = 0.02, Atrim = c(0, 8)) {
 
 DEbyEdgeR <- function(rawdata, groups, alpha = 0.05) {
     
-    # Identify cases and controls by recognizing expression in character string
-    ind_patients <- grep("Group", groups)
-    ind_CTRL <- grep("CTRL", groups)
+    # Identify controls as the samples whose label contains "CTRL" (case
+    # insensitive); all remaining samples are patients, regardless of their
+    # group (Group1, Group2, ...) or of how they are labelled
+    is_CTRL <- grepl("CTRL", groups, ignore.case = TRUE)
+    ind_CTRL <- which(is_CTRL)
+    ind_patients <- which(!is_CTRL)
+
+    if (length(ind_CTRL) == 0 || length(ind_patients) == 0) {
+        stop("groups must contain both control ('CTRL') and patient samples")
+    }
     
     # Load library
     library(edgeR)
