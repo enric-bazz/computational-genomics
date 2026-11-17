@@ -1,0 +1,146 @@
+---
+title: "Single-cell RNA-seq analysis: example and observations"
+output:
+  github_document:
+    html_preview: true
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
+                      fig.width = 7, fig.height = 4, dpi = 110)
+suppressPackageStartupMessages(library(SingleCellExperiment))
+source("../scripts/scRNA_analysis.R")
+```
+
+This notebook runs the three functions of `scripts/scRNA_analysis.R` on the mouse artery data and looks at the choices behind each step: filtering and normalization, the number of PCs, how the cell types are assigned, what t-SNE shows, and what the ligand–receptor scores actually rank.
+
+## Data and filtering
+
+```{r data}
+load("../data/sce_count.RData")
+load("../data/ref.RData")
+load("../data/LRdb.RData")
+dim(sce)
+c(all_zero_genes = sum(rowSums(counts(sce)) == 0),
+  zero_fraction = round(mean(counts(sce) == 0), 3))
+```
+
+```{r umi, fig.height = 3.5}
+totals <- sort(colSums(counts(sce)), decreasing = TRUE)
+plot(seq_along(totals), totals, log = "xy", type = "l", lwd = 2,
+     xlab = "cell rank", ylab = "total UMI count", main = "Total counts per cell")
+summary(totals)
+```
+
+- The matrix is very sparse (`r round(100 * mean(counts(sce) == 0))`% zeros), and `r sum(rowSums(counts(sce)) == 0)` genes are never detected; these are the only genes `process_sce()` removes.
+- Removing them does not change the plot above: genes with no counts add nothing to any cell's total.
+- The curve has only a short tail of low-count cells and no plateau of near-empty droplets, so the barcodes were already filtered to real cells before the data were shared.
+
+## Normalization and PCA
+
+```{r process}
+set.seed(123)
+sce <- process_sce(sce, n_HVG = 1000, percVar = 70)
+```
+
+```{r size-factors, fig.width = 4.5, fig.height = 4.5}
+lib_sf <- scuttle::librarySizeFactors(sce)
+plot(lib_sf, sizeFactors(sce), log = "xy", pch = 20, cex = 0.3, col = rgb(0, 0, 0, 0.3),
+     xlab = "library size factor", ylab = "deconvolution factor (scran)", main = "Size factors")
+abline(0, 1, col = "red")
+round(cor(log(lib_sf), log(sizeFactors(sce))), 3)
+```
+
+The deconvolution factors from `scran` follow library size closely (correlation of logs `r round(cor(log(lib_sf), log(sizeFactors(sce))), 3)`) but not exactly: they correct for composition differences between cell types, which plain library size cannot do.
+
+```{r pca, fig.height = 3.5}
+n_PCs <- ncol(reducedDim(sce, "PCA"))
+cum_var <- cumsum(attr(reducedDim(sce, "PCA"), "percentVar"))
+plot(cum_var, type = "l", lwd = 2, xlab = "PC", ylab = "cumulative % variance",
+     main = paste("PCs retained:", n_PCs))
+abline(h = 70, v = n_PCs, col = "red", lty = 2)
+```
+
+The first two PCs explain `r round(cum_var[2])`% of the variance, but reaching 70% takes `r n_PCs` PCs, close to the cap of 100 computed in the first pass. Variance is spread over many components, as usual for single-cell data where the first PCs capture the main cell types and the rest is mostly noise. This choice of `percVar` keeps much of that noise in the downstream clustering and t-SNE; it is a requirement of the exercise, but a lower threshold or an elbow criterion would normally retain far fewer PCs.
+
+## Clustering and annotation
+
+```{r annotation}
+invisible(capture.output(sce <- annotation(sce, ref, tempfile(fileext = ".pdf"))))
+table(cluster = sce$Louvain, cell_type = sce$cell_annotation)
+```
+
+```{r ref-types}
+sort(table(ref$cell_ontology_class), decreasing = TRUE)
+```
+
+- Louvain finds `r nlevels(sce$Louvain)` clusters, which `SingleR` maps to only `r nlevels(sce$cell_annotation)` of the `r length(unique(ref$cell_ontology_class))` reference cell types. Several clusters receive the same label, so the clustering is finer than the reference.
+- Smooth muscle cells are the largest population in the artery data (`r sum(sce$cell_annotation == "smooth muscle cell")` cells in `r length(unique(sce$Louvain[sce$cell_annotation == "smooth muscle cell"]))` clusters), but the reference has only `r sum(ref$cell_ontology_class == "smooth muscle cell")` of them. With cardiac muscle and endocardial cells among its types, the reference looks like heart tissue, so it fits this dataset only in part.
+- Endothelial cells, the second largest population in the reference, are not assigned to any cluster. The clusters labelled "endocardial cell" also score high for endothelial cells (heatmap below): the two are closely related, and the label may well be endothelial for an artery.
+
+The scores behind the cluster labels show how clear-cut each assignment is:
+
+```{r scores, fig.height = 4.5}
+logcounts(ref) <- counts(ref)
+pred <- SingleR::SingleR(test = sce, ref = ref, labels = ref$cell_ontology_class,
+                         clusters = sce$Louvain, de.method = "wilcox",
+                         assay.type.ref = "counts", assay.type.test = "counts")
+scores <- t(pred$scores)
+colnames(scores) <- paste("cluster", rownames(pred))
+pheatmap::pheatmap(scores, scale = "column", cluster_rows = FALSE, cluster_cols = FALSE,
+                   color = hcl.colors(50, "Blues 3", rev = TRUE),
+                   main = "SingleR scores, scaled within each cluster")
+```
+
+### Counts or logcounts?
+
+The instructions require `assay.type.ref = "counts"`. Running `SingleR` on log-normalized data instead gives the same labels:
+
+```{r counts-vs-logcounts}
+ref_log <- scuttle::logNormCounts(ref)
+pred_log <- SingleR::SingleR(test = sce, ref = ref_log, labels = ref$cell_ontology_class,
+                             clusters = sce$Louvain, de.method = "wilcox",
+                             assay.type.ref = "logcounts", assay.type.test = "logcounts")
+c(same_labels = identical(pred$labels, pred_log$labels))
+```
+
+This is not a consequence of sparsity: `SingleR` scores cells by Spearman correlation on marker genes, which only uses ranks, and the log transformation does not change the order of the values. Normalization changes values across cells, which can affect marker selection, but here it is not enough to change any label.
+
+## t-SNE
+
+```{r tsne, fig.width = 10, fig.height = 4}
+set.seed(123)
+sce <- scater::runTSNE(sce, subset_row = metadata(sce)$HVGs, assay.type = "logcounts",
+                       perplexity = 100, name = "TSNE_genes")
+gridExtra::grid.arrange(
+  scater::plotReducedDim(sce, "TSNE", colour_by = "cell_annotation") +
+    ggplot2::ggtitle(paste("on", n_PCs, "PCs")),
+  scater::plotReducedDim(sce, "TSNE_genes", colour_by = "cell_annotation") +
+    ggplot2::ggtitle("on 1000 HVGs (no PCA)"),
+  ncol = 2)
+```
+
+Computed on the PCs (as in `process_sce()`) or directly on the log-expression of the HVGs, t-SNE separates the same four cell types; the layout changes but the groups do not. With `dimred = "PCA"`, `runTSNE()` ignores `subset_row`, so the PCs are the actual input. The effect of perplexity (50, 100, 400) is shown in `output/tSNE_perplexity_comparison.pdf`: higher values make the clusters more compact and change their relative positions, but the cell types stay separated in all three. Distances between clusters in a t-SNE plot carry little meaning, so the layout should not be over-interpreted.
+
+## Cell–cell communication
+
+```{r lrdb}
+c(pairs = nrow(LRdb), ligands = length(unique(LRdb$ligand)),
+  receptors = length(unique(LRdb$receptor)))
+CCC <- CCCanalysis(sce, LRdb)
+head(CCC, 8)
+```
+
+```{r ccc-heatmap, fig.width = 5, fig.height = 4.5}
+total <- tapply(CCC$LRscore, list(CCC$sender, CCC$receiver), sum)
+pheatmap::pheatmap(total, cluster_rows = FALSE, cluster_cols = FALSE,
+                   display_numbers = TRUE, number_format = "%.1f",
+                   color = hcl.colors(50, "Reds 3", rev = TRUE),
+                   main = "Summed LRscore (rows: sender, columns: receiver)")
+```
+
+- Some ligands pair with several receptors, so the loop runs over pairs, not over ligands.
+- The top of the ranking is occupied by two pairs, *Hsp90b1*–*Lrp1* and *Bsg*–*Cav1*, repeated across many sender–receiver combinations. *Hsp90b1* and *Bsg* are expressed in almost every cell, so `LRscore`, a product of mean expressions, ranks how abundant the genes are rather than how specific the interaction is.
+- Summed over all pairs, the scores vary only about two-fold across sender–receiver combinations (`r round(min(total), 1)` to `r round(max(total), 1)`): no cell-type pair stands out clearly. Being means, the scores do not depend on how many cells each type has.
+- Fibroblast-to-fibroblast comes first in the ranking. Autocrine pairs are scored like any other, as the instructions ask, so a population that expresses both ligand and receptor ranks highly with itself.
+- Proper cell–cell communication tools (for example CellPhoneDB or CellChat) add a permutation test on cell labels and a specificity requirement, which this simple score lacks.

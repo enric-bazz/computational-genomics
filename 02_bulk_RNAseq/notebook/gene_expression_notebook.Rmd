@@ -1,0 +1,116 @@
+---
+title: "Bulk gene-expression analysis: example and observations"
+output:
+  github_document:
+    html_preview: true
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
+                      fig.width = 7, fig.height = 4, dpi = 110)
+source("../scripts/gene_expression_analysis.R")
+```
+
+This notebook runs the functions of `scripts/gene_expression_analysis.R` on the bone marrow count data and checks the two steps that are easiest to get wrong: the TMM normalization, compared with edgeR's own, and the differential expression summary.
+
+## Data
+
+```{r data}
+rawdata <- read.table("../data/raw_count.txt", header = TRUE, sep = "\t", row.names = 1)
+annot <- read.table("../data/gene_annot.txt", header = TRUE, sep = "\t",
+                    row.names = "Symbol", quote = "")
+dim(rawdata)
+table(sub("_.*|[0-9]+$", "", colnames(rawdata)))
+sum(is.na(rawdata))                              # missing values
+identical(rownames(rawdata), rownames(annot))    # same genes, same order
+```
+
+- `r ncol(rawdata)` samples: `r sum(grepl("CTRL", colnames(rawdata)))` controls, `r sum(grepl("Group1", colnames(rawdata)))` asymptomatic patients (Group1) and `r sum(grepl("Group2", colnames(rawdata)))` symptomatic patients (Group2). Groups are unbalanced, and the reference sample for MvA and TMM (the first column) is a Group2 patient.
+- No missing values, and the annotation lists exactly the same genes in the same order.
+
+```{r depth, fig.height = 3.5}
+depth <- colSums(rawdata) / 1e6
+barplot(depth, las = 2, cex.names = 0.6, col = ifelse(grepl("CTRL", names(depth)), "steelblue", "grey70"),
+        ylab = "million reads", main = "Sequencing depth (controls in blue)")
+```
+
+Sequencing depth varies about `r round(max(depth) / min(depth), 1)`-fold across samples, so raw counts are not comparable without normalization.
+
+## MvA plots before and after TMM
+
+```{r mva, fig.height = 7}
+TMM <- TMMnorm(rawdata, annot)
+norm <- TMM$Normalized_exprData
+
+mva <- function(x, ref, title) {
+  M <- log2(ref + 1) - log2(x + 1)
+  A <- (log2(ref + 1) + log2(x + 1)) / 2
+  plot(A, M, pch = 20, cex = 0.3, col = rgb(0, 0, 0, 0.3), main = title)
+  abline(h = 0, col = "red")
+  abline(h = median(M[A > 2]), col = "blue", lty = 2)
+}
+show <- c("CTRL1", "Group1_S1")
+par(mfrow = c(2, 2))
+for (s in show) mva(rawdata[, s], rawdata[, 1], paste("raw:", colnames(rawdata)[1], "vs", s))
+for (s in show) mva(norm[, s], norm[, 1], paste("TMM:", colnames(rawdata)[1], "vs", s))
+```
+
+Before normalization the cloud of points is shifted away from M = 0 (blue dashed line: median M of expressed genes), because the two samples were sequenced at different depths. After TMM the bulk of the genes is centred on M = 0, which is the assumption behind TMM: most genes are not differentially expressed. Gene-length scaling does not change M, since the same gene is compared in both samples.
+
+## Scaling factors compared with edgeR
+
+`TMMnorm()` computes factors relative to sample 1 with a plain trimmed mean of M values. edgeR's `calcNormFactors()` uses the same idea with weights and different trimming; with `refColumn = 1` the two can be compared directly (edgeR divides library sizes by its factor, so the comparable quantity is the ratio to sample 1's factor).
+
+```{r sf, fig.width = 4.5, fig.height = 4.5}
+library(edgeR)
+nf <- calcNormFactors(DGEList(rawdata), refColumn = 1)$samples$norm.factors
+edgeR_SF <- nf[1] / nf
+plot(edgeR_SF, TMM$ScalingFactors, pch = 19, xlab = "edgeR (relative to sample 1)",
+     ylab = "TMMnorm()", main = "Scaling factors")
+abline(0, 1, col = "red")
+round(cor(edgeR_SF, TMM$ScalingFactors), 3)
+```
+
+The two sets of factors agree closely (correlation `r round(cor(edgeR_SF, TMM$ScalingFactors), 3)`). The small differences come from edgeR's precision weights and its default trimming (30% of M, 5% of A) versus the 2% M trimming and fixed A window (0 to 8) used here.
+
+## Differential expression
+
+```{r de}
+groups <- colnames(rawdata)
+DE <- DEbyEdgeR(rawdata, groups, alpha = 0.05)
+DE$DEtestOutcomes
+res <- as.data.frame(DE$DEtestResults)
+c(`p < 0.05` = sum(res$`p-value` < 0.05), `q < 0.05` = sum(res$`q-value` < 0.05))
+```
+
+- At alpha = 0.05 without correction, `r DE$DEtestOutcomes["SelectedGenes"]` genes are selected. Assuming 80% of the `r nrow(res)` genes are truly not differentially expressed (G0 = 0.8 G, as required), about `r DE$DEtestOutcomes["FalsePositives"]` of them are expected false positives, an estimated FDR of `r round(DE$DEtestOutcomes["FalseDiscoveryRate"], 2)`.
+- Controlling the FDR at 5% with Benjamini–Hochberg keeps `r sum(res$"q-value" < 0.05)` genes.
+- Patients are pooled as the instructions require; the asymptomatic and symptomatic groups are not compared with each other.
+
+```{r volcano, fig.height = 4.5}
+par(mfrow = c(1, 2))
+hist(res$`p-value`, breaks = 50, col = "grey80", border = "white",
+     main = "DE p-values", xlab = "p-value")
+sig <- res$`q-value` < 0.05
+plot(res$logFC, -log10(res$`p-value`), pch = 20, cex = 0.4,
+     col = ifelse(sig, "firebrick", "grey60"),
+     xlab = "log2 fold change (patients / controls)", ylab = "-log10(p)", main = "Volcano plot")
+legend("topleft", legend = "q < 0.05", col = "firebrick", pch = 20, bty = "n", cex = 0.8)
+```
+
+The p-value histogram has a clear peak near 0 over a flat background, the shape expected when a sizeable fraction of genes is differentially expressed. In the volcano plot the significant genes are spread on both sides, but not evenly: `r sum(sig & res$logFC < 0)` are down-regulated and only `r sum(sig & res$logFC > 0)` up-regulated in patients.
+
+## Own fold change versus edgeR's
+
+The instructions allow either edgeR's log fold change or one computed from the normalized data as log2(mean in patients / mean in controls). The two can be compared:
+
+```{r logfc, fig.width = 4.5, fig.height = 4.5}
+patients <- !grepl("CTRL", colnames(rawdata))
+own_logFC <- log2(rowMeans(norm[, patients] + 1) / rowMeans(norm[, !patients] + 1))
+plot(res$logFC, own_logFC, pch = 20, cex = 0.3, col = rgb(0, 0, 0, 0.3),
+     xlab = "edgeR logFC", ylab = "from TMMnorm() data", main = "log2 fold change")
+abline(0, 1, col = "red")
+round(cor(res$logFC, own_logFC), 3)
+```
+
+The two estimates are strongly correlated (`r round(cor(res$logFC, own_logFC), 3)`), but the simple ratio is systematically compressed towards 0. The normalized values are counts per million per kilobase and are small for many genes (a quarter of the genes have a mean below `r round(quantile(rowMeans(norm), 0.25), 1)`), so the +1 pseudocount is not negligible and shrinks the ratio, most of all when one of the two groups has low expression. edgeR's estimate, fitted on raw counts with library-size offsets, does not have this problem, which makes it the better choice for `DEbyEdgeR()`.
